@@ -88,15 +88,14 @@ h1{
 #bodycopy ul li{
     margin-bottom:25px;
 }
-h4{
+#bodycopy h4, #bodycopy h3{
     margin:15px;
-    color: purple;
 }
 .body-copy-flex{
     display: flex;
 }
 .body-copy-flex img{
-   /* margin:0 0 0 25px;*/
+    /* margin:0 0 0 25px;*/
 }
 
 #textflex{
@@ -111,7 +110,7 @@ figcaption{
     margin-bottom:25px;
     /*float: right;*/
 }
-.fig-move p{
+.fig-move , .figmove p{
     margin-left:25px;
 }
 
@@ -137,9 +136,12 @@ footer ul li:first-child{
     font-weight:bold;
 }
 footer a:link{
-    color:white;
+    color:navajowhite;
     text-decoration: none;
 }
 footer a:hover{
     text-decoration: underline;
+}
+footer a:visited{
+    color: white;
 }

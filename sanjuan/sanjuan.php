@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php $relpath= "../"; $title="PR|San Juan"; $page="sanjuan";
+      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/";
+      $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/";
+?>
+<?php include "../assets/inc/head.php" ?>
+
+    <body>
+        <div id="bodymain">
+            <?php include "../assets/inc/header.php" ?>
+            <main class="clearfix" id="bodycopy">
+                <h1><span>San Juan,</span>
+                    <span id="tagline">La Ciudad Amurallada</span>
+                </h1>
+
+                <?php include "../assets/inc/sanjuannav.php" ?>
+
+                <figure>
+                    <img src="<?php echo $imgpath ?>elyunquepano800x140.jpg"
+                        alt="pano of el yunque"/>
+                    <figcaption>El Yunque National Park</figcaption>
+                </figure>
+                <figure>
+                    <img src="<?php echo $imgpath ?>sanjuanpano800x141.jpg"
+                        alt="pano of san juan"/>
+                    <figcaption>View of the Bacardi factory from Old San Juan</figcaption>
+                </figure>
+                <p class="clearfix">
+                    The first two times we went to Puerto Rico, we went to San Juan. It seemed like the obvious place
+                    to go when travelling to the island and not knowing much about it. San Juan, for sure, didn't
+                    disappoint. Both times we rented from AirBnB, and got great places. The first time was a little
+                    bungalow behind the owners house, with a private pool. The second was a condo in a gated community
+                    with access to a pool, the beach, and a BBQ area that we used often.
+                </p>
+                <div class="body-copy-flex">
+                    <p>
+                        San Juan, despite being a city, has some gorgeous beaches. This is a picture of
+                        the beach we spent most of our time on. I love the high rise buildings, which are hotels and
+                        condos, right on the beach. Despite what you'd think, they beach was never that busy, and we
+                        were always able to find a place and enjoy the water. While we were here, some turtles had
+                        come onto the beach to lay eggs, so the authorities had sectioned off the area so they turtle
+                        eggs could hatch without being bothered by tourists.
+                    </p>
+                    <figure class="fig-move">
+                    <img src="<?php echo $imgpath ?>SanJuan300x169.jpg"
+                        alt="image of san juan beach" />
+                        <figcaption>Condado Beach</figcaption>
+                    </figure>
+                </div>
+                <p>
+                    One of the great things about San Juan is how close it is to nearby attractions. Just a short
+                    drive away is <a href="https://www.fs.usda.gov/elyunque">El Yunque</a>, a US National Forrest.
+                    It is the only Tropical Rain Forrest in the US! you can drive through the forrest and stop
+                    along the way for great views and different structures like the <a href="https://en.wikipedia.org/wiki/Yokah%C3%BA_Tower">
+                        Yakahu tower</a>. At the moment,
+                    the park is closed "until further notice". Hurricane Maria destroyed much of the park
+                    and they have decided to close the park indefinitely.
+                </p>
+            </main>
+        </div><!-- end of bodymain -->
+        <?php include "../assets/inc/footer.html" ?>
+    </body>
+</html>
+
