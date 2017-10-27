@@ -33,7 +33,7 @@
             <a <?php if($page == 'about'){ 
                 echo 'class="active"';}?> href="#">About</a>
     </nav>
-        <img src="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/prpanoheader800.png"
+        <img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" id="prpano" />
     </div>
     <script src="assets/scripts/navigation.js"></script>
