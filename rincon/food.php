@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $relpath= "../"; $title="PR|Rincon|Food"; $page="rincon-food";
-      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/";
-      $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/";
+      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
+      $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/";
 ?>
 <?php include "../assets/inc/head.php" ?>
 
