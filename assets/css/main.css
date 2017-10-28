@@ -50,6 +50,10 @@
         width: 250px;
         margin-left: 15px;
     }
+    /*-------------MAIN SECTION -----------------------*/
+    main > ul > li{
+        display: none;
+    }
     /* ------------MOBILE FOOTER ----------------------*/
     footer{
         color: black;

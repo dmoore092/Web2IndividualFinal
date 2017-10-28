@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $relpath= "../"; $title="PR|Rincon"; $page="rincon";
-      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/";
+      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
       $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/";
 ?>
 <?php include "../assets/inc/head.php" ?>
@@ -20,7 +20,7 @@
         <?php include "../assets/inc/rinconnav.php" ?>
 
         <figure>
-        <img src="<?php echo $imgpath ?>OurBeachSunset800x600.jpg"
+        <img src="<?php echo $imgpath ?>OurBeachSunset400x300.jpg"
              alt="rincon sunset"/>
             <figcaption>Sunset in Rincon</figcaption>
         </figure>

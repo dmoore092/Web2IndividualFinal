@@ -2,6 +2,8 @@
 <html lang="en">
 <?php $relpath= ""; $title="PR|Home"; $page="home";
 $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
+$linkpath = "http://serenity.ist.rit.edu/~dwmdis/240/project2/";
+$templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/Web2IndividualFinal/";
 ?>
 <?php include "assets/inc/head.php" ?>
 

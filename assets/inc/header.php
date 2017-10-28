@@ -1,5 +1,6 @@
 
 <header>
+    <script src="<?php echo $relpath ?>assets/scripts/navigation.js"></script>
     <span id="click-here" onclick="openNav()"><img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/icons/hamburger25x21.png"></a></span>
         <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
@@ -7,7 +8,7 @@
                 <div><a <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a></div>
                 <a onclick="getId(this); openOrClose();" id="rincon-section" <?php if($page == 'rincon'){  echo 'class="active"';}?> href="#">Rincon</a>
                 <div class="float-container">    
-                    <a class="subnav1" href="#">Rincon Home</a>
+                    <a class="subnav1" href="<?php $templinkpath ?>/rincon/rincon.php">Rincon Home</a>
                     <a class="subnav1" href="#">Rincon Food</a>
                     <a class="subnav1" href="#">Rincon Bars</a>
                 </div>
@@ -36,5 +37,4 @@
         <img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" id="prpano" />
     </div>
-    <script src="assets/scripts/navigation.js"></script>
 </header>
