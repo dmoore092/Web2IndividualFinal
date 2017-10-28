@@ -22,7 +22,8 @@
              alt="old san juan street"/>
             <figcaption>Old Street in Old San Juan</figcaption>
         </figure>
-        <p style="height: 230px;">
+        <h2>Cobblestone Streets</h2>
+        <p>
             By far one of the coolest places in Puerto Rico is San Juan. It's full of narrow streets, old buildings,
             and tons of independent shops. It's a fantastic place to just walk around. There is a large port where
             cruise ships dock for tourists to get off and explore the Old City. You could really stay in Old San Juan
@@ -30,6 +31,7 @@
             and bars, nightclubs and tons of shopping.
         </p>
         <div class="body-copy-flex">
+            <h2>El Morro</h2>
             <p>
                 It also houses two old forts from it's time under Spanish rule. El Morro is the
                 big one that gets most of the attention. It's an old fort that you can wander around and has some great views.

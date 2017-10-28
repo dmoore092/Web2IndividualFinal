@@ -22,6 +22,7 @@
                 alt="sam standing on steps at la parguera"/>
             <figcaption>Sam standing on the steps in La Parguera</figcaption>
         </figure>
+        <h2>Hidden Gem</h2>
         <p class="indextextspacing">
             La Parguera is a great little town in the southwest corner of Puerto Rico. The first time we went there,
             there was a lot of construction going on, and the town was dead empty. We popped into a bar for a drink,
@@ -34,6 +35,7 @@
             adventure tours to the Bioluminescent Bay, as well as other tours to see the Mangroves.
         </p>
         <div class="body-copy-flex">
+            <h2>Things to do</h2>
         <p>
             In the boating section I talk about this place a little more. It is an island that is off the coast, and
             you can rent small boats for very cheap and head out to this place. There is a boat dock where you can tie off,
@@ -48,6 +50,7 @@
                 <figcaption>Entrance to offshore island</figcaption>
             </figure>
         </div>
+        <h2>Don't miss this town!</h2>
         <p>
             If you can fit it in, La Parguera is not a place that should be missed. It's best to come during the weekday,
             because we found out that the weekends are much busier, that is can be hard to find parking. If you can only

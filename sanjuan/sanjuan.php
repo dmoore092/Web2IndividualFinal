@@ -26,6 +26,7 @@
                         alt="pano of san juan"/>
                     <figcaption>View of the Bacardi factory from Old San Juan</figcaption>
                 </figure>
+                <h2>The Capital</h2>
                 <p class="clearfix">
                     The first two times we went to Puerto Rico, we went to San Juan. It seemed like the obvious place
                     to go when travelling to the island and not knowing much about it. San Juan, for sure, didn't
@@ -34,6 +35,7 @@
                     with access to a pool, the beach, and a BBQ area that we used often.
                 </p>
                 <div class="body-copy-flex">
+                    <h2>Beach Town</h2>
                     <p>
                         San Juan, despite being a city, has some gorgeous beaches. This is a picture of
                         the beach we spent most of our time on. I love the high rise buildings, which are hotels and
@@ -48,6 +50,7 @@
                         <figcaption>Condado Beach</figcaption>
                     </figure>
                 </div>
+                <h2>Nearby Attractions</h2>
                 <p>
                     One of the great things about San Juan is how close it is to nearby attractions. Just a short
                     drive away is <a href="https://www.fs.usda.gov/elyunque">El Yunque</a>, a US National Forrest.

@@ -23,6 +23,7 @@
             <figcaption>Credit: <a href="https://www.tripadvisor.com/Attraction_Review-g672292-d302464-Reviews-Paradise_Scuba_and_Snorkeling_Center-La_Parguera_Puerto_Rico.html#photos;geo=147319&detail=302464&aggregationId=101">
                     Trip Advisor</a></figcaption>
         </figure>
+        <h2>Paradise Scuba</h2>
         <p class="indextextspacing">
             Anytime we go somewhere, Sam sits on the beach and I look for a scuba trip. I became scuba certified in 2015,
             and have since dove in 4 countries and I love it. This is how I found La Parguera in the first place. I hooked
@@ -31,6 +32,7 @@
             sites are also fantastic and their dive masters were top notch.
         </p>
         <div class="body-copy-flex">
+            <h2>Diving my own dive</h2>
         <p>
             One of the things I loved most about diving with them was the way they handled the dives. Normally the way
             a dive trip works, is that on the boat, they pair you up with a buddy and you guys stick together throughout
@@ -48,8 +50,9 @@
                         Pinterest</a></figcaption>
             </figure>
         </div>
+        <h2>Don't bother diving in San Juan</h2>
         <p>
-            I have gone scuba diving twice in Puerto Rico now, once in San Juan, and ones in La Parguera. The dive in
+            I have gone scuba diving twice in Puerto Rico now, once in San Juan, and once in La Parguera. The dive in
             San Juan was terrible in comparison. The water was rough, and very silty from the bottom of the ocean being
             kicked around. In contract, the dive sites off La Parguera were great! Visibility was exactly what you'd
             expect in the caribbean, we got to see lots of wildlife like turtles, barracudas, crabs, fish, and amazing

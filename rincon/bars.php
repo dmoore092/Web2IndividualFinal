@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $relpath= "../"; $title="PR|Rincon|Bars"; $page="rincon-bars";
-      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/";
-      $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/";
+      $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
+      $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/";
 ?>
 <?php include "../assets/inc/head.php" ?>
 
@@ -29,6 +29,7 @@
              alt="pic of Rincon Beer Company" />
                 <figcaption>Front of Rincon Beer Co.</figcaption>
             </figure>
+            <h2>Rincon Beer Company</h2>
             <p>
                 Rincon Beer Company was a place we went back to again and again. It's an American style brew pub that
                 always had a nice selection of microbrews from the mainland, a couple of local beers, and they always
@@ -38,6 +39,7 @@
             </p>
         </div>
         <div class="body-copy-flex">
+            <h2>La Estacion</h2>
             <p>
                 While walking around downtown Rincon, my ears caught something that was wholly out of place in the land
                 of Raggaeton and island music; it was the sound of heavy metal music. I've always been a fan of hard rock
@@ -61,6 +63,7 @@
                 alt="pic of two drinks overlooking the ocean" />
                 <figcaption>Local bar overlooking the ocean</figcaption>
             </figure>
+            <h2>Local Bars</h2>
             <p>
                 This last place isn't a place, it's more of a type of bar. One of the things we love to do in Puerto
                 Rico is just drive around and see what we can find. Often times, taking a road you would otherwise skip

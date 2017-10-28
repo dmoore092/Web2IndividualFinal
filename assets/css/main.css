@@ -54,6 +54,18 @@
     main > ul > li{
         display: none;
     }
+    figcaption{
+        font-style: italic;
+    }
+    #TAShrink{
+        height: auto; 
+        width: auto; 
+        max-width: 400px; 
+        object-fit: contain;
+    }
+    #fig-move{
+        margin-left:0;
+    }
     /* ------------MOBILE FOOTER ----------------------*/
     footer{
         color: black;

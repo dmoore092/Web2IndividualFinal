@@ -15,23 +15,26 @@
         <?php include "../assets/inc/sanjuannav.php" ?>
         
         <figure>
-            <img alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/07/ea/53/b4/la-b-de-burro.jpg"/>
+            <img id="TAShrink" alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/07/ea/53/b4/la-b-de-burro.jpg"/>
             <figcaption>Courtesy of <a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g147320-d2445117-i132797334-La_B_de_Burro-San_Juan_Puerto_Rico.html#132797334">
                     Trip Advisor</a></figcaption>
         </figure>
+        <h2>La B del Burro</h2>
         <p class="indextext">
             First up is <a href="http://labdeburro.com/" target="_blank">La B de Burro</a>. It's a funky taco shop in
             the middle of Ocean Park in San Juan. We went to this place daily for lunch, as they had some of the best
             tacos we could find in the entire area. The story is that La B de Burro was a well-known wrestler,
             hence the "ring-side" seating. They also have a side area where you can sit in the shade.
         </p>
+        <h2>Tacos</h2>
         <p class="indextext">
             One of the cool things we found out about almost all of the taco places we went to, is that
             the majority of the tacos are made from corn tortillas. This turned out to be a huge boon for us
             as Sam was able to eat basically anywhere we went to, without fear of ingesting gluten and
             ruining her trip.
         </p>
-        <div class="clearfix" style="display:flex;">
+        <div class="clearfix">
+            <h2>La Cueva del Mar</h2>
         <p class="indextext">
             Another of our favorite places to eat was La Cueva del Mar(The cave of the sea). They had some of the best
             fish tacos around. They have two locations, one in Condado, near our apartment and the other was in Old San Juan

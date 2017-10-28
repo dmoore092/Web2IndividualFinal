@@ -22,6 +22,7 @@
              alt="pic of boat we rented"/>
             <figcaption>Boat docked in the offshore island</figcaption>
         </figure>
+        <h2>Boat Rentals</h2>
         <p class="indextextspacing">
             This is the boat you get with a boat rental. We rented from <a href="https://www.facebook.com/Ginas-at-Johnnys-Boats-La-Parguera-158536400892689/">
                 Gina's at Johnny's Boats</a>. It was a great little shop that you just walk up to, tell them how
@@ -34,6 +35,7 @@
             debris. So be careful there.
         </p>
         <div class="body-copy-flex">
+            <h2>No Boat License Necessary</h2>
         <p>
             This is me driving the boat, and sam sitting in the front. You can see how absolutely beautiful the water
             is in this pic. There was even a place out in the middle of the bay where lots of boats had gathered and
@@ -48,11 +50,13 @@
             </figure>
         </div>
         <div>
+            <h2>Island Swimming</h2>
             <figure>
             <img src="<?php echo $imgpath ?>laparguerapool2-300x225.jpg"
                  alt="sam in the pool" />
                 <figcaption>Best swimming pool you could ask for</figcaption>
             </figure>
+            
         <p class="indextextspacing">
             Here is a great picture of the swimming area. Under the dock is a fence so that critters can't swim in, and
             the island acts as a natural barriers on the other side. On the far end of the dock is where the entrance to

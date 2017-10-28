@@ -23,6 +23,7 @@
                  alt="dale drinking a moscow mule"/>
                 <figcaption>Drinking a Moscow Mule at The Green Thumb</figcaption>
             </figure>
+            <h2>Celiac Concerns</h2>
             <p>
                 Shortly before our trip to Puerto Rico in 2016, Sam was diagnosed as Celiac. So she had to strictly
                 follow a gluten-free diet. We were more than a little concerned, as we had no experience traveling
@@ -34,6 +35,7 @@
             </p>
         </div>
         <div class="body-copy-flex">
+            <h2>The Green Thumb</h2>
             <p>
                 What impressed us the most was the first time we found this place, they had a gluten-free Pad Thai
                 on special that night. We were more than a little concerned that they might not know what they were
