@@ -5,7 +5,7 @@
         <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
             <div class="sub-navlist">
-                <div><a <?php if($page == 'home'){  echo 'class="active"';}?> href="#">Home</a></div>
+                <div><a <?php if($page == 'home'){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a></div>
                 <a onclick="getId(this); openOrClose();" id="rincon-section" <?php if($page == 'rincon'){  echo 'class="active"';}?> href="#">Rincon</a>
                 <div class="float-container">    
                     <a class="subnav1" href="<?php echo $linkpath ?>rincon/rincon.php">Rincon Home</a>
