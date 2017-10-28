@@ -37,7 +37,7 @@
             <p>
                 What impressed us the most was the first time we found this place, they had a gluten-free Pad Thai
                 on special that night. We were more than a little concerned that they might not know what they were
-                doing, but we took a change and it turned out to be one of the most delicious meals we've ever had, in
+                doing, but we took a chance and it turned out to be one of the most delicious meals we've ever had, in
                 any of our journeys. It was the first meal of many there, and set our minds at ease for the rest of
                 the trip. The island turned out to be very accommodating. Along with many restaurants naturally having
                 gluten free options due to the preference for corn tortillas over flour, there were also lots of taco

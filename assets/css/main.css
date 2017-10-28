@@ -1,7 +1,8 @@
 /* -- Mobile(small) Section -- */
 @media only screen and (max-width: 450px) {
     #click-here{
-        display: inline;
+        display: block;
+        margin: 15px 0 15px 0;
     }
     #close-nav{
         display: inline;
@@ -52,7 +53,7 @@
     /* ------------MOBILE FOOTER ----------------------*/
     footer{
         color: black;
-        padding:10px;
+        padding:-10px;
         width:100%;
         border-top:solid black 2px;
         display: flex;
@@ -63,16 +64,24 @@
     }
     footer ul li{
         display: block;
-        margin-left:;
+        margin-left: 0;
     }
     footer ul li:first-child{
         font-weight:bold;
     }
     footer p{
-        padding-top: 90px;;
+        clear: both;
+        margin-top: 50px;
     }
     h3{
         display: none;
+    }
+    figure{
+        float: none;
+        margin-left: 0;
+    }
+    #hidden{
+        visibility: hidden;
     }
 }
 

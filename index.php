@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php $relpath= ""; $title="PR|Home"; $page="home";
-$imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/";
+$imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
 ?>
 <?php include "assets/inc/head.php" ?>
 
@@ -17,6 +17,7 @@ $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/"
         </h1>
         <img src="<?php echo $imgpath ?>samanddale400.jpg"
              id="samanddale" alt="pic of sam and dale in puerto rico"/>
+        <h2>Who are We?</h2>
         <p>We are Dale and Sam. We are both Sign
             Language Interpreters in Western NY and we love visiting Puerto
             Rico! We have gone 3 times in the past 3 years and we love
@@ -26,6 +27,7 @@ $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/"
             and fell in love with the other areas that the island has to offer.
             We've barely scratched the surface so we will continue to return.
         </p>
+        <h2>Hurricane Maria</h2>
         <p>
             With the devastation that the island is experiencing,
             a lot of the places I will show in this site are either
@@ -34,6 +36,7 @@ $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/"
             talk about where we went, and what we did. Along the way we'll talk about our experiences
             in each of the areas.
         </p>
+        <h2>Where we went</h2>
         <p class="clearfix">Here is a map of the island with circles around the places you will
             see in this website. La Parguera is a small town so it's not on the map, but it is
             located down on the bottom of the map near Guanica. For reference, it takes about 2.5
@@ -44,7 +47,7 @@ $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project1/assets/media/images/"
 
         </p>
         <figure>
-            <img src="<?php echo $imgpath ?>PRMap378x800Updated.png"
+            <img src="<?php echo $imgpath ?>PRMap400.png"
                  alt="map of puerto rico" />
             <figcaption>Credit: <a href="https://annexx51.wordpress.com/pr-101/puerto-rico-maps/">
                     annex51.wordpress.com</a></figcaption>
