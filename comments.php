@@ -73,8 +73,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                           cols = "47"
                           name = "comments"
                           id = "comments"
-                          placeholder = "Leave a comment here..."
-                          value = "<?php echo $feedback ?>"></textarea>
+                          placeholder = "Leave a comment here..."></textarea>
                </p>
                 <p>
                     <input type="submit"
