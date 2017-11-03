@@ -1,3 +1,32 @@
+<?php
+    if(!empty($_POST)){
+        
+        $errors = [];
+        $message = "";
+        
+        if(strlen($_POST["name"]) == 0){
+            $errors[] = "Please enter a name to post with.<br/>";
+        }
+        
+        if(strlen($_POST["subject"]) == 0){
+            $errors[] = "Please enter a subject.<br/>";
+        }
+        
+        if(!empty($errors)){
+            $feedback .= "There were some errors submitting the form:<br/>";
+            
+            for ($i = 0; $i < count($errors); $i++){
+                $feedback .= $errors[$i];
+            }
+        }
+        else{
+            $message = "Name: " . $_POST["name"] . "\r\n";
+            $message .= "Subject: " . $_POST["subject"] . "\r\n";
+            $message .= "Comments: " . $_POST["comments"] . "\r\n";
+            
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php $relpath= ""; $title="PR|Home"; $page="home";
@@ -25,22 +54,16 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 <span class="span">Name:*</span>
                 <input type = "text"
                        id = "name"
+                       name= "name"
                        size = "25"
                        maxlength = "25"
                        value="" /> 
               </p>
- <!-- email --><p>
-                <span class="span">Email:</span>
-                <input type = "text"
-                       id = "email"
-                       size = "25"
-                       maxlength = "25"
-                       value="" />
-               </p>
 <!-- subject --><p>
-                <span class="span">Subject:</span>
+                <span class="span">Subject:*</span>
                 <input type = "text"
                        id = "subject"
+                       name = "subject"
                        size = "47"
                        maxlength = "47"
                        value="" />
@@ -50,8 +73,8 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                           cols = "47"
                           name = "comments"
                           id = "comments"
-                          placeholder = "Leave a comment here...">
-                </textarea>
+                          placeholder = "Leave a comment here..."
+                          value = <?php echo $feedback ?>></textarea>
                </p>
                 <p>
                     <input type="submit"
@@ -59,6 +82,14 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                            class="btn btn-submit" />
                 </p>
         </form>
+    <hr/>
+    <div id="chat-box-area">
+        <p>test chat box area</p>
+        <?php 
+            echo $message;
+        ?>
+        
+    </div>
         <p id="hidden">.</p>
     </main>
 </div><!-- end bodymain -->
