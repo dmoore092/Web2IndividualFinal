@@ -51,6 +51,10 @@
         margin-left: 15px;
     }
     /*-------------MAIN SECTION -----------------------*/
+    
+    main{
+        height: 100%;
+    }
     main > ul > li{
         display: none;
     }
