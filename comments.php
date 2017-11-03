@@ -57,6 +57,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                     <input type="submit"
                            value="Contact Me"
                            class="btn btn-submit" />
+                </p>
         </form>
         <p id="hidden">.</p>
     </main>
