@@ -41,7 +41,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 <span class="span">Subject:</span>
                 <input type = "text"
                        id = "subject"
-                       size = "456"
+                       size = "45"
                        maxlength = "45"
                        value="" />
                </p>
