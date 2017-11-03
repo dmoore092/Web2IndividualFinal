@@ -3,6 +3,7 @@
         
         $errors = [];
         $message = "";
+        $feedback = "";
         
         if(strlen($_POST["name"]) == 0){
             $errors[] = "Please enter a name to post with.<br/>";
