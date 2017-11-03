@@ -27,7 +27,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        id = "name"
                        size = "25"
                        maxlength = "25"
-                       value="<?= $_POST['name'] ?>" /> 
+                       value="" /> 
               </p>
  <!-- email --><p>
                 <span>Email:</span>
@@ -35,7 +35,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        id = "email"
                        size = "25"
                        maxlength = "25"
-                       value="<?= $_POST['email'] ?>" />
+                       value="" />
                </p>
 <!-- subject --><p>
                 <span>Subject:</span>
@@ -43,7 +43,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        id = "subject"
                        size = "50"
                        maxlength = "50"
-                       value="<?= $_POST['subject'] ?>" />
+                       value="" />
                </p>
 <!-- comment--><p>
                 <span></span>
