@@ -21,9 +21,8 @@
             }
         }
         else{
-            $message = "Name: " . $_POST["name"] . "\r\n";
-            $message .= "Subject: " . $_POST["subject"] . "\r\n";
-            $message .= "Comments: " . $_POST["comments"] . "\r\n";
+            $message = $_POST["name"] . "is talking about " . $_POST["subject"] . "\r\n";
+            $message .= "and says: " . $_POST["comments"] . "\r\n";
             
         }
     }
