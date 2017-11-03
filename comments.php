@@ -46,7 +46,6 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        value="" />
                </p>
 <!-- comment--><p>
-                <span></span>
                 <textarea rows = "10"
                           cols = "60"
                           name = "comments"
