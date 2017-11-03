@@ -69,8 +69,8 @@
     #comments {
         resize: none;
     }
-    span{
-            display: inline-block;
+    #bodycopy{
+            /*display: inline-block;*/
             width: 70px
         }
     /* ------------MOBILE FOOTER ----------------------*/
