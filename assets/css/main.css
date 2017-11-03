@@ -76,6 +76,7 @@
     .span{
         display: block;
         width: 60;
+        padding: 10px;
     }
 
     /* ------------MOBILE FOOTER ----------------------*/
