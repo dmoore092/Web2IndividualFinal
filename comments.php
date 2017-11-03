@@ -22,7 +22,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
               action= "comments.php"
               onsubmit = "" />
  <!-- name --><p>
-                <span>Name:*</span>
+                <span class="span">Name:*</span>
                 <input type = "text"
                        id = "name"
                        size = "25"
@@ -30,7 +30,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        value="" /> 
               </p>
  <!-- email --><p>
-                <span>Email:</span>
+                <span class="span">Email:</span>
                 <input type = "text"
                        id = "email"
                        size = "25"
@@ -38,7 +38,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        value="" />
                </p>
 <!-- subject --><p>
-                <span>Subject:</span>
+                <span class="span">Subject:</span>
                 <input type = "text"
                        id = "subject"
                        size = "62"

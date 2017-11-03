@@ -69,10 +69,11 @@
     #comments {
         resize: none;
     }
-    #bodycopy{
-            /*display: inline-block;*/
-            width: 70px
-        }
+    .span{
+        display: block;
+        width: 60;
+    }
+
     /* ------------MOBILE FOOTER ----------------------*/
     footer{
         color: black;
