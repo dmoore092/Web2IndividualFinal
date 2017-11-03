@@ -41,13 +41,13 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 <span class="span">Subject:</span>
                 <input type = "text"
                        id = "subject"
-                       size = "47"
-                       maxlength = "47"
+                       size = "45"
+                       maxlength = "45"
                        value="" />
                </p>
 <!-- comment--><p>
                 <textarea rows = "10"
-                          cols = "45"
+                          cols = "47"
                           name = "comments"
                           id = "comments"
                           placeholder = "Leave a comment here...">
