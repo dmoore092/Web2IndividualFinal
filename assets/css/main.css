@@ -66,6 +66,13 @@
     #fig-move{
         margin-left:0;
     }
+    #comments {
+        resize: none;
+    }
+    span{
+            display: inline-block;
+            width: 70px
+        }
     /* ------------MOBILE FOOTER ----------------------*/
     footer{
         color: black;
