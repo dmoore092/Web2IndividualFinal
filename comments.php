@@ -21,7 +21,7 @@
             }
         }
         else{
-            $message = $_POST["name"] . "is talking about " . $_POST["subject"] . "\r\n";
+            $message = $_POST["name"] . " is talking about " . $_POST["subject"] . "\r\n";
             $message .= "and says: " . $_POST["comments"] . "\r\n";
             
         }
