@@ -1,7 +1,7 @@
 //opens the mobile navigation
 function openNav() {
     "use strict";
-    document.getElementById("myMobilenav").style.width = "280px";
+    document.getElementById("myMobilenav").style.width = "300px";
 }
 /* closes the mobile navigation */
 function closeNav() {
