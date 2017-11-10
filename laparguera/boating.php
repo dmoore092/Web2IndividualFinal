@@ -30,8 +30,8 @@
             and relax in the water for a bit, but it also means that the propeller on the boat can hit rocks and other
             debris. So be careful there.
         </p>
+        <h2>No Boat License Necessary</h2>
         <div class="body-copy-flex">
-            <h2>No Boat License Necessary</h2>
         <p>
             This is me driving the boat, and sam sitting in the front. You can see how absolutely beautiful the water
             is in this pic. There was even a place out in the middle of the bay where lots of boats had gathered and
@@ -59,7 +59,8 @@
             the island is, and where the picnic tables and iguanas are. you can see our boat docked just to the left.
         </p>
         </div>
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-    <?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

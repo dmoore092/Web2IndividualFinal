@@ -16,14 +16,14 @@
                 <?php include "../assets/inc/sanjuannav.php" ?>
 
                 <figure>
-                    <img class="small" src="<?php echo $imgpath ?>elyunquepano800x140.jpg"
+                    <img class="small" src="<?php echo $imgpath ?>elyunquepano400.jpg"
                         alt="pano of el yunque"/>
                     <img class="big" src="<?php echo $imgpath ?>elyunquepano1000.jpg"
                         alt="pano of el yunque"/>
                     <figcaption>El Yunque National Park</figcaption>
                 </figure>
                 <figure>
-                    <img class="small" src="<?php echo $imgpath ?>sanjuanpano800x141.jpg"
+                    <img class="small" src="<?php echo $imgpath ?>sanjuanpano400.jpg"
                         alt="pano of san juan"/>
                     <img class="big" src="<?php echo $imgpath ?>sanjuanpano1000.jpg"
                         alt="pano of san juan"/>

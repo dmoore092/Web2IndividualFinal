@@ -19,23 +19,23 @@
             party animals, but we like going out to interesting bars and having a few drinks and chatting with locals
             and bartenders.
         </p>
-        <div class="body-copy-flex">
-            <figure>
+        <figure>
             <img src="<?php echo $imgpath ?>rinconBeerCo300x200.jpg"
              alt="pic of Rincon Beer Company" />
                 <figcaption>Front of Rincon Beer Co.</figcaption>
-            </figure>
-            <h2>Rincon Beer Company</h2>
-            <p>
-                Rincon Beer Company was a place we went back to again and again. It's an American style brew pub that
-                always had a nice selection of microbrews from the mainland, a couple of local beers, and they always
-                had ciders for Sam. There was usually a nice crowd of young people there hanging out and enjoying the
-                evenings. It helps that it's located right in the heart of the town of Rincon so there was lots of
-                people watching to do, and the main strip was a place for locals to show off their tricked out vehicles.
-            </p>
-        </div>
+        </figure>
+        <h2>Rincon Beer Company</h2>
         <div class="body-copy-flex">
-            <h2>La Estacion</h2>
+        <p class="indextextspacing">
+            Rincon Beer Company was a place we went back to again and again. It's an American style brew pub that
+            always had a nice selection of microbrews from the mainland, a couple of local beers, and they always
+            had ciders for Sam. There was usually a nice crowd of young people there hanging out and enjoying the
+            evenings. It helps that it's located right in the heart of the town of Rincon so there was lots of
+            people watching to do, and the main strip was a place for locals to show off their tricked out vehicles.
+        </p>
+        </div>
+        <h2>La Estacion</h2>
+        <div class="body-copy-flex">
             <p>
                 While walking around downtown Rincon, my ears caught something that was wholly out of place in the land
                 of Raggaeton and island music; it was the sound of heavy metal music. I've always been a fan of hard rock
@@ -53,13 +53,13 @@
                 <figcaption>Inside of La Estación</figcaption>
             </figure>
         </div>
+        <h2>Local Bars</h2>
         <div class="body-copy-flex">
             <figure>
             <img src="<?php echo $imgpath ?>LaCambija300x225.jpg"
                 alt="pic of two drinks overlooking the ocean" />
                 <figcaption>Local bar overlooking the ocean</figcaption>
             </figure>
-            <h2>Local Bars</h2>
             <p>
                 This last place isn't a place, it's more of a type of bar. One of the things we love to do in Puerto
                 Rico is just drive around and see what we can find. Often times, taking a road you would otherwise skip
@@ -68,7 +68,8 @@
                 nice, the drinks always cold, and the views are always breathtaking.
             </p>
         </div>
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

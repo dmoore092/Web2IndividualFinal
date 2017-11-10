@@ -27,8 +27,8 @@
             were one of the best dive outfits that I've experienced. Their boat, pictured here, was great! Their dive
             sites are also fantastic and their dive masters were top notch.
         </p>
+        <h2>Diving my own dive</h2>
         <div class="body-copy-flex">
-            <h2>Diving my own dive</h2>
         <p>
             One of the things I loved most about diving with them was the way they handled the dives. Normally the way
             a dive trip works, is that on the boat, they pair you up with a buddy and you guys stick together throughout
@@ -56,7 +56,8 @@
             like it. Rather than leaving you alone to dive, they would pair you up with a dive master who teaches you
             about safety and then does the dive with you, just to make sure you're ok.
         </p>
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

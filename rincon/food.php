@@ -13,14 +13,15 @@
 
         <?php include "../assets/inc/rinconnav.php" ?>
 
-        <div class="body-copy-flex">
+    
             <figure>
             <img src="<?php echo $imgpath ?>MoscowMule300x225.jpg"
                  alt="dale drinking a moscow mule"/>
                 <figcaption>Drinking a Moscow Mule at The Green Thumb</figcaption>
             </figure>
-            <h2>Celiac Concerns</h2>
-            <p>
+        <h2>Celiac Concerns</h2>
+        <div class="body-copy-flex">
+            <p class="indextextspacing">
                 Shortly before our trip to Puerto Rico in 2016, Sam was diagnosed as Celiac. So she had to strictly
                 follow a gluten-free diet. We were more than a little concerned, as we had no experience traveling
                 with a dietary restriction, especially to a place that speaks a different language(I speak a little
@@ -30,8 +31,8 @@
                     The Green Thumb Grill</a> that specialized in Vegan and Gluten-free food.
             </p>
         </div>
+        <h2>The Green Thumb</h2>
         <div class="body-copy-flex">
-            <h2>The Green Thumb</h2>
             <p>
                 What impressed us the most was the first time we found this place, they had a gluten-free Pad Thai
                 on special that night. We were more than a little concerned that they might not know what they were
@@ -47,7 +48,8 @@
                 <figcaption>Pad Thai at The Green Thumb</figcaption>
             </figure>
         </div>
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

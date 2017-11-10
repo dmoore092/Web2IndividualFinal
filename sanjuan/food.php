@@ -47,7 +47,8 @@
                 <figcaption>La Cueva del Mar</figcaption>
             </figure>
         </div><!-- textflex -->
+        <hr class="clearfix" />
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>
