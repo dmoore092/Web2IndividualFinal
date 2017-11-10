@@ -7,9 +7,8 @@
 <?php include "../assets/inc/head.php" ?>
 
     <body>
-        <div id="bodymain">
-            <?php include "../assets/inc/header.php" ?>
             <main class="clearfix" id="bodycopy">
+                <?php include "../assets/inc/header.php" ?>
                 <h1><span>San Juan,</span>
                     <span id="tagline">La Ciudad Amurallada</span>
                 </h1>
@@ -61,7 +60,6 @@
                     and they have decided to close the park indefinitely.
                 </p>
             </main>
-        </div><!-- end of bodymain -->
         <?php include "../assets/inc/footer.html" ?>
     </body>
 </html>

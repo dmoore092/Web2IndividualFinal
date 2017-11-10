@@ -37,12 +37,8 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 <?php include "assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
-
-    <?php include "assets/inc/header.php" ?>
-
-
     <main id="bodycopy">
+        <?php include "assets/inc/header.php" ?>
         <h1>
             <span id="tagline">Leave Your Comments Here!</span>
         </h1>
@@ -89,9 +85,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         ?>
         
     </div>
-        <p id="hidden">.</p>
     </main>
-</div><!-- end bodymain -->
 <?php include "assets/inc/footer.html" ?>
 </body>
 </html>

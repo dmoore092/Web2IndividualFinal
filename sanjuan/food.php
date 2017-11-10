@@ -7,9 +7,8 @@
 <?php include "../assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
-    <?php include "../assets/inc/header.php" ?>
     <main class="clearfix" id="bodycopy">
+        <?php include "../assets/inc/header.php" ?>
         <h1>San Juan Food!</h1>
 
         <?php include "../assets/inc/sanjuannav.php" ?>
@@ -49,7 +48,6 @@
             </figure>
         </div><!-- textflex -->
     </main>
-</div>
 <?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

@@ -7,12 +7,8 @@
 <?php include "../assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
-
-    <?php include "../assets/inc/header.php" ?>
-
-
     <main class="clearfix" id="bodycopy">
+        <?php include "../assets/inc/header.php" ?>
         <h1><span>Rincon,</span>
             <span id="tagline">El mejor lugar para vivir</span>
         </h1>
@@ -59,7 +55,6 @@
             </figure>
         </div><!-- body-copy-flex -->
     </main>
-</div>
 <?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

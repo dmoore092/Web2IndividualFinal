@@ -7,12 +7,8 @@
 <?php include "../assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
-
-    <?php include "../assets/inc/header.php" ?>
-
-
     <main class="clearfix" id="bodycopy">
+        <?php include "../assets/inc/header.php" ?>
         <h1><span>La Parguera,</span>
             <span id="tagline">Dive the Wall!</span>
         </h1>
@@ -60,7 +56,6 @@
             and laid back the town was, especially in the evening.
         </p>
     </main>
-</div>
 <?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

@@ -7,12 +7,8 @@
 <?php include "../assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
-
-    <?php include "../assets/inc/header.php" ?>
-
-
     <main class="clearfix" id="bodycopy">
+        <?php include "../assets/inc/header.php" ?>
         <h1>Rincon Food!</h1>
 
         <?php include "../assets/inc/rinconnav.php" ?>
@@ -52,7 +48,6 @@
             </figure>
         </div>
     </main>
-</div>
 <?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

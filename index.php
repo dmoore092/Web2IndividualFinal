@@ -8,11 +8,6 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 <?php include "assets/inc/head.php" ?>
 
 <body>
-<!--<div id="bodymain">-->
-
-    
-
-
     <main id="bodycopy">
         <?php include "assets/inc/header.php" ?>
         <h1>
@@ -59,9 +54,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
             <figcaption>Credit: <a href="https://annexx51.wordpress.com/pr-101/puerto-rico-maps/">
                     annex51.wordpress.com</a></figcaption>
         </figure>
-        <!--<p>.</p>-->
     </main>
-<!--</div><!-- end bodymain -->
 <?php include "assets/inc/footer.html" ?>
 </body>
 </html>
