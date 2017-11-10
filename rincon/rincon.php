@@ -16,11 +16,13 @@
         <?php include "../assets/inc/rinconnav.php" ?>
 
         <figure>
-        <img src="<?php echo $imgpath ?>OurBeachSunset400x300.jpg"
+        <img class="small" src="<?php echo $imgpath ?>OurBeachSunset400x300.jpg"
+             alt="rincon sunset"/>
+        <img class="big" src="<?php echo $imgpath ?>OurBeachSunset1000.jpg"
              alt="rincon sunset"/>
             <figcaption>Sunset in Rincon</figcaption>
         </figure>
-        <h2>Sunset</h2>
+        <h2 class="clearfix">Sunset</h2>
         <p>
             One of the best things about Ricon is the sunset. Since Rincon sits on the western edge of the island, it
             gets a spectacular view of the sun as it goes down over the ocean. Every night we spent in Ricon we would
@@ -54,7 +56,8 @@
                 <figcaption>Our personal private beach</figcaption>
             </figure>
         </div><!-- body-copy-flex -->
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

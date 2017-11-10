@@ -30,19 +30,19 @@
             on a brand new section of town. Right in front of her is a sort of boardwalk with little huts selling
             adventure tours to the Bioluminescent Bay, as well as other tours to see the Mangroves.
         </p>
+        <h2>Things to do</h2>
         <div class="body-copy-flex">
-            <h2>Things to do</h2>
-        <p>
-            In the boating section I talk about this place a little more. It is an island that is off the coast, and
-            you can rent small boats for very cheap and head out to this place. There is a boat dock where you can tie off,
-            then on the other side of the dock is a fenced in pool area. The fence keeps critters out while letting
-            ocean water in. It had a great sandy bed underneath and was about chest height. It was great! the island
-            itself has picnic tables and we got to see some giant iguanas as well. It also had some of absolutely
-            gorgeous views.
-        </p>
+            <p>
+                In the boating section I talk about this place a little more. It is an island that is off the coast, and
+                you can rent small boats for very cheap and head out to this place. There is a boat dock where you can tie off,
+                then on the other side of the dock is a fenced in pool area. The fence keeps critters out while letting
+                ocean water in. It had a great sandy bed underneath and was about chest height. It was great! the island
+                itself has picnic tables and we got to see some giant iguanas as well. It also had some of absolutely
+                gorgeous views.
+            </p>
             <figure class="fig-move">
-            <img src="<?php echo $imgpath ?>laparguerapool300x225.jpg"
-             alt="entry point of island" />
+                <img src="<?php echo $imgpath ?>laparguerapool300x225.jpg"
+                     alt="entry point of island" />
                 <figcaption>Entrance to offshore island</figcaption>
             </figure>
         </div>
@@ -55,7 +55,8 @@
             some people who were staying in town for a full week to go out scuba diving everyday. They loved how chill
             and laid back the town was, especially in the evening.
         </p>
+        <hr/>
+        <?php include "../assets/inc/footer.html" ?>
     </main>
-<?php include "../assets/inc/footer.html" ?>
 </body>
 </html>

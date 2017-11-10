@@ -94,7 +94,7 @@
         padding:0 0 25px 0;
     }
     main img{
-        /*float: left;*/
+        float: left;
         padding:0 15px 15px 0;
     }
     main ul{
@@ -121,12 +121,11 @@
         flex-direction: column;
     }
     figure{
-        /*float: left;*/
+        float: left;
     }
     figcaption{
         font-style: italic;
         margin-bottom:25px;
-        /*float: right;*/
     }
     .fig-move , .figmove p{
         margin-left:25px;
