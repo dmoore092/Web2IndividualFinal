@@ -46,9 +46,9 @@
         <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1000.png"
              alt="pano of puerto rico" class="prpano" />
     <nav>
-        <a <?php if($page == 'home'){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a>
-        <a <?php if($page == 'rincon'){  echo 'class="active"';}?> href="<?php echo $linkpath ?>rincon/rincon.php">Rincon</a>
-        <a <?php if($page == 'rincon'){  echo 'class="active"';}?> href="<?php echo $linkpath ?>sanjuan/sanjuan.php">San Juan</a>
-        <a <?php if($page == 'laparguera'){ echo 'class="active"';}?> href="<?php echo $linkpath ?>laparguera/laparguera.php">La Parguera</a>
+        <a <?php if($page == 'home' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a>
+        <a <?php if($page == 'rincon' || $page == "rincon-food" ||  $page == "rincon-bars"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>rincon/rincon.php">Rincon</a>
+        <a <?php if($page == 'sanjuan' || $page == "sanjuan-food" ||  $page == "oldsanjuan"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>sanjuan/sanjuan.php">San Juan</a>
+        <a <?php if($page == 'laparguera' || $page == "laparguera-boating" ||  $page == "laparguera-scuba"){ echo 'class="active"';}?> href="<?php echo $linkpath ?>laparguera/laparguera.php">La Parguera</a>
     </nav>
 </header>
