@@ -81,29 +81,29 @@
         background-color: white;
         margin:auto;
     }*/
-    #bodycopy{
+    main{
         /*max-width:1000px;*/
         margin: auto;
         background-color: white;
         padding: 15px;
     }
-    #bodycopy p{
+    main p{
         padding:0 0 25px 0;
     }
-    #bodycopy img{
+    main img{
         /*float: left;*/
         padding:0 15px 15px 0;
     }
-    #bodycopy ul{
+    main ul{
         display: flex;
         flex-direction:row;
         list-style-type: none;
         justify-content: space-around;
     }
-    #bodycopy ul li{
+    main ul li{
         margin-bottom:25px;
     }
-    #bodycopy h4, #bodycopy h3{
+    main h4, main h3{
         margin:15px;
     }
     .body-copy-flex{
@@ -132,33 +132,42 @@
     
     /* ---- FOOTER -------*/
     footer{
-        color: white;
+        /*color: white;*/
         padding:20px;
-        margin-left:10vw;
-        width:80vw;
+        /*position: absolute;
+        width:1000px;
+        margin-left: 20vw;*/
+        height: 240px;
         border:solid white 5px;
         display: flex;
+        flex-direction: row;
     }
     footer ul{
-        /*float: left;*/
+        display: flex;
+        flex-direction: column;
+        margin: 25px 45px 25px;
+        height: 200px;
     }
     footer ul li{
-        display: block;
-        padding: 0px;
-        margin-left:10vw;
+       /* display: block;*/
+        /*padding: 0px;*/
+        /*margin-left:10vw;*/
     }
     footer ul li:first-child{
         font-weight:bold;
     }
     footer a:link{
-        color:navajowhite;
+        /*color:navajowhite;*/
         text-decoration: none;
     }
     footer a:hover{
         text-decoration: underline;
     }
     footer a:visited{
-        color: white;
+        /*color: white;*/
+    }
+    #copyright{
+        float: right;
     }
 }   
 
@@ -215,7 +224,15 @@
         margin-left: 15px;
     }
     /*-------------MAIN SECTION -----------------------*/
-    
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    hr{
+        display: none;
+    }
     main{
         height: 100%;
     }
