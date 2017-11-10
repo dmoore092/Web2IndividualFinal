@@ -1,120 +1,5 @@
-/* -- Mobile(small) Section -- */
-@media only screen and (max-width: 450px) {
-    #click-here{
-        display: block;
-        margin: 15px 0 15px 0;
-    }
-    #close-nav{
-        display: inline;
-    }
-    nav ul li{
-        list-style: none;
-    }
-    .mobilenav {
-        height: 100%;
-        width: 0;/* changes with js */
-        position: fixed; 
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        padding-top: 60px;
-        transition: 0.5s;
-    }
-    
-    /* nav menu links */
-    .mobilenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        /*display: block;*/
-        transition: 0.3s
-    }
-    
-    .mobilenav a:hover, .offcanvas a:focus{
-        color: #f1f1f1;
-    }
-    
-    /* Position and style the close button*/
-    .mobilenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    .subnav1, .subnav2, .subnav3{
-        display: none;
-        width: 250px;
-        margin-left: 15px;
-    }
-    /*-------------MAIN SECTION -----------------------*/
-    
-    main{
-        height: 100%;
-    }
-    main > ul > li{
-        display: none;
-    }
-    figcaption{
-        font-style: italic;
-    }
-    #TAShrink{
-        height: auto; 
-        width: auto; 
-        max-width: 400px; 
-        object-fit: contain;
-    }
-    #fig-move{
-        margin-left:0;
-    }
-    #comments {
-        resize: none;
-    }
-    .span{
-        display: block;
-        width: 60;
-    }
-
-    /* ------------MOBILE FOOTER ----------------------*/
-    footer{
-        color: black;
-        padding:-10px;
-        width:100%;
-        border-top:solid black 2px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    footer ul{
-        /*float: left;*/
-    }
-    footer ul li{
-        display: block;
-        margin-left: 0;
-    }
-    footer ul li:first-child{
-        font-weight:bold;
-    }
-    footer p{
-        clear: both;
-        margin-top: 0px;
-    }
-    h3{
-        display: none;
-    }
-    figure{
-        float: none;
-        margin-left: 0;
-    }
-    #hidden{
-        visibility: hidden;
-    }
-}
-
 /* -- MAIN SECTION --*/
-@media only screen and ( min width: 451px){
+@media screen and ( min-width: 451px) {
     *{
         padding: 0;
         margin: 0;
@@ -125,6 +10,12 @@
     }
     #hidden{
         visibility: hidden;
+    }
+    .small{
+        display: none;
+    }
+    .big{
+        display: block;
     }
     #prpano{
         box-shadow: 8px 8px 20px;
@@ -262,3 +153,118 @@
         color: white;
     }
 }   
+
+/* -- Mobile(small) Section -- */
+@media screen and (max-width: 450px) {
+    #click-here{
+        display: block;
+        margin: 15px 0 15px 0;
+    }
+    #close-nav{
+        display: inline;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    .mobilenav {
+        height: 100%;
+        width: 0;/* changes with js */
+        position: fixed; 
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    
+    /* nav menu links */
+    .mobilenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        /*display: block;*/
+        transition: 0.3s
+    }
+    
+    .mobilenav a:hover, .offcanvas a:focus{
+        color: #f1f1f1;
+    }
+    
+    /* Position and style the close button*/
+    .mobilenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    .subnav1, .subnav2, .subnav3{
+        display: none;
+        width: 250px;
+        margin-left: 15px;
+    }
+    /*-------------MAIN SECTION -----------------------*/
+    
+    main{
+        height: 100%;
+    }
+    main > ul > li{
+        display: none;
+    }
+    figcaption{
+        font-style: italic;
+    }
+    #TAShrink{
+        height: auto; 
+        width: auto; 
+        max-width: 400px; 
+        object-fit: contain;
+    }
+    #fig-move{
+        margin-left:0;
+    }
+    #comments {
+        resize: none;
+    }
+    .span{
+        display: block;
+        width: 60;
+    }
+
+    /* ------------MOBILE FOOTER ----------------------*/
+    footer{
+        color: black;
+        padding:-10px;
+        width:100%;
+        border-top:solid black 2px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer ul{
+        /*float: left;*/
+    }
+    footer ul li{
+        display: block;
+        margin-left: 0;
+    }
+    footer ul li:first-child{
+        font-weight:bold;
+    }
+    footer p{
+        clear: both;
+        margin-top: 0px;
+    }
+    h3{
+        display: none;
+    }
+    figure{
+        float: none;
+        margin-left: 0;
+    }
+    #hidden{
+        visibility: hidden;
+    }
+}

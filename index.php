@@ -49,7 +49,9 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 
         </p>
         <figure>
-            <img src="<?php echo $imgpath ?>PRMap400.png"
+            <img class= "small" src="<?php echo $imgpath ?>PRMap400.png"
+                 alt="map of puerto rico" />
+            <img class= "big" src="<?php echo $imgpath ?>PRMap378x800Updated.png"
                  alt="map of puerto rico" />
             <figcaption>Credit: <a href="https://annexx51.wordpress.com/pr-101/puerto-rico-maps/">
                     annex51.wordpress.com</a></figcaption>
