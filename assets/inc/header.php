@@ -1,7 +1,7 @@
 
 <header>
     <script src="<?php echo $relpath ?>assets/scripts/navigation.js"></script>
-    <span id="click-here" onclick="openNav()"><img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/icons/hamburger25x21.png"></a></span>
+    <span id="click-here" onclick="openNav()"><img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/icons/hamburger25x21.png"></span>
         <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
             <p class="sub-navlist">
@@ -34,7 +34,9 @@
             <p><a <?php if($page == 'about'){ echo 'class="active"';}?> href="#">About</a></p>
             <p><a <?php if($page == 'comments'){ echo 'class="active"';}?> href="#">Comments</a></p>
     </nav>
-        <img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
-             alt="pano of puerto rico" id="prpano" />
+        <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
+             alt="pano of puerto rico" class="prpano" />
+        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1000.png"
+             alt="pano of puerto rico" class="prpano" />
     </div>
 </header>

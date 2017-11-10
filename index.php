@@ -8,15 +8,17 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 <?php include "assets/inc/head.php" ?>
 
 <body>
-<div id="bodymain">
+<!--<div id="bodymain">-->
 
-    <?php include "assets/inc/header.php" ?>
+    
 
 
     <main id="bodycopy">
+        <?php include "assets/inc/header.php" ?>
         <h1>
             <span id="tagline">Isla del Encanto</span>
         </h1>
+        <div id="floater">
         <img src="<?php echo $imgpath ?>samanddale400.jpg"
              id="samanddale" alt="pic of sam and dale in puerto rico"/>
         <h2>Who are We?</h2>
@@ -38,6 +40,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
             talk about where we went, and what we did. Along the way we'll talk about our experiences
             in each of the areas.
         </p>
+        </div><!-- end floater -->
         <h2>Where we went</h2>
         <p class="clearfix">Here is a map of the island with circles around the places you will
             see in this website. La Parguera is a small town so it's not on the map, but it is
@@ -51,14 +54,14 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         <figure>
             <img class= "small" src="<?php echo $imgpath ?>PRMap400.png"
                  alt="map of puerto rico" />
-            <img class= "big" src="<?php echo $imgpath ?>PRMap378x800Updated.png"
+            <img class= "big" src="<?php echo $imgpath ?>PRMap1000.png"
                  alt="map of puerto rico" />
             <figcaption>Credit: <a href="https://annexx51.wordpress.com/pr-101/puerto-rico-maps/">
                     annex51.wordpress.com</a></figcaption>
         </figure>
-        <p id="hidden">.</p>
+        <!--<p>.</p>-->
     </main>
-</div><!-- end bodymain -->
+<!--</div><!-- end bodymain -->
 <?php include "assets/inc/footer.html" ?>
 </body>
 </html>

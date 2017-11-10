@@ -17,7 +17,7 @@
     .big{
         display: block;
     }
-    #prpano{
+    .prpano{
         box-shadow: 8px 8px 20px;
         margin-bottom:10px;
     }
@@ -26,11 +26,7 @@
         /*width:80vw;*/
     
     }
-    #bodymain{
-        max-width:1000px;
-        background-color: white;
-        margin:auto;
-    }
+    
     /* -------HEADER ---- */
     #mainflex{
         display: flex;
@@ -42,8 +38,8 @@
         font-family: fantasy;
     }
     main{
-        width:1000px;
-        margin:0 120px;
+        width:1030px;
+        /*margin:0 120px;*/
     }
     
     /*-- NAV SECTION --*/
@@ -69,6 +65,9 @@
         font-family:Georgia, sans serif;
     
     }
+    #samanddale{
+        float: left;
+    }
     .indextextspacing{
         height:300px;
     }
@@ -76,14 +75,23 @@
         font-family: "Lucida Handwriting", Arial, sans serif;
         font-size: .75em;
     }
+    /*#bodymain{
+        max-width:1000px;
+        height: auto;
+        background-color: white;
+        margin:auto;
+    }*/
     #bodycopy{
-        width:800px;
+        /*max-width:1000px;*/
+        margin: auto;
+        background-color: white;
+        padding: 15px;
     }
     #bodycopy p{
         padding:0 0 25px 0;
     }
     #bodycopy img{
-        float: left;
+        /*float: left;*/
         padding:0 15px 15px 0;
     }
     #bodycopy ul{
@@ -110,7 +118,7 @@
         flex-direction: column;
     }
     figure{
-        float: left;
+        /*float: left;*/
     }
     figcaption{
         font-style: italic;
