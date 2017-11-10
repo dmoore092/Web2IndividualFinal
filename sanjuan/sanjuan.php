@@ -16,12 +16,16 @@
                 <?php include "../assets/inc/sanjuannav.php" ?>
 
                 <figure>
-                    <img src="<?php echo $imgpath ?>elyunquepano800x140.jpg"
+                    <img class="small" src="<?php echo $imgpath ?>elyunquepano800x140.jpg"
+                        alt="pano of el yunque"/>
+                    <img class="big" src="<?php echo $imgpath ?>elyunquepano1000.jpg"
                         alt="pano of el yunque"/>
                     <figcaption>El Yunque National Park</figcaption>
                 </figure>
                 <figure>
-                    <img src="<?php echo $imgpath ?>sanjuanpano800x141.jpg"
+                    <img class="small" src="<?php echo $imgpath ?>sanjuanpano800x141.jpg"
+                        alt="pano of san juan"/>
+                    <img class="big" src="<?php echo $imgpath ?>sanjuanpano1000.jpg"
                         alt="pano of san juan"/>
                     <figcaption>View of the Bacardi factory from Old San Juan</figcaption>
                 </figure>
@@ -33,8 +37,8 @@
                     bungalow behind the owners house, with a private pool. The second was a condo in a gated community
                     with access to a pool, the beach, and a BBQ area that we used often.
                 </p>
+                <h2>Beach Town</h2>
                 <div class="body-copy-flex">
-                    <h2>Beach Town</h2>
                     <p>
                         San Juan, despite being a city, has some gorgeous beaches. This is a picture of
                         the beach we spent most of our time on. I love the high rise buildings, which are hotels and
@@ -59,8 +63,9 @@
                     the park is closed "until further notice". Hurricane Maria destroyed much of the park
                     and they have decided to close the park indefinitely.
                 </p>
+                <hr/>
+                <?php include "../assets/inc/footer.html" ?>
             </main>
-        <?php include "../assets/inc/footer.html" ?>
     </body>
 </html>
 
