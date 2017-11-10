@@ -11,11 +11,14 @@
     #hidden{
         visibility: hidden;
     }
-    .small{
+    #mobile-header, .small{
         display: none;
     }
-    .big{
+    .big, #web-header{
         display: block;
+    }
+    #web-header a{
+        margin: 0 10px;
     }
     .prpano{
         box-shadow: 8px 8px 20px;
@@ -173,6 +176,9 @@
 
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
+    #web-header{
+        display: none;
+    }
     #click-here{
         display: block;
         margin: 15px 0 15px 0;
