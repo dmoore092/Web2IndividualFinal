@@ -36,14 +36,14 @@
     </nav>
         <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" class="prpano" />
-        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1000.png"
+        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
              alt="pano of puerto rico" class="prpano" />
     </div>
 </header>
 <header id="web-header">
     <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" class="prpano" />
-        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1000.png"
+        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
              alt="pano of puerto rico" class="prpano" />
     <nav>
         <a <?php if($page == 'home' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a>

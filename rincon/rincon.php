@@ -18,7 +18,7 @@
         <figure>
         <img class="small" src="<?php echo $imgpath ?>OurBeachSunset400x300.jpg"
              alt="rincon sunset"/>
-        <img class="big" src="<?php echo $imgpath ?>OurBeachSunset1000.jpg"
+        <img class="big" src="<?php echo $imgpath ?>OurBeachSunset800.jpg"
              alt="rincon sunset"/>
             <figcaption>Sunset in Rincon</figcaption>
         </figure>

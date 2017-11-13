@@ -33,6 +33,11 @@
             ruining her trip.
         </p>
         <div class="clearfix">
+            <figure class="fig-move">
+                <img src="<?php echo $imgpath ?>lacuevadelmar300x300.jpg"
+                    alt="la cueva del mar" />
+                <figcaption>La Cueva del Mar</figcaption>
+            </figure>
             <h2>La Cueva del Mar</h2>
         <p class="indextext">
             Another of our favorite places to eat was La Cueva del Mar(The cave of the sea). They had some of the best
@@ -41,11 +46,6 @@
             where lots of people pass by, especially when the cruise ships are in town, so it's fantastic for getting
             some fish tacos, a beer and people watching.
         </p>
-            <figure class="fig-move">
-        <img src="<?php echo $imgpath ?>lacuevadelmar300x300"
-             alt="la cueva del mar" />
-                <figcaption>La Cueva del Mar</figcaption>
-            </figure>
         </div><!-- textflex -->
         <hr class="clearfix" />
         <?php include "../assets/inc/footer.html" ?>
