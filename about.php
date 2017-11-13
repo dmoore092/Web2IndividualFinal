@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $relpath= ""; $title="PR|About"; $page="about"; ?>
+<?php $relpath= ""; $title="PR|About"; $page="about"; 
+      $linkpath = "http://serenity.ist.rit.edu/~dwmdis/240/project2/";
+?>
 <?php include "assets/inc/head.php" ?>
 
     <?php include "assets/inc/header.php" ?>
