@@ -1,4 +1,4 @@
-<ul id="local-nav">
+<ul id="localnav">
     <li><a <?php if($page == 'laparguera'){
             echo 'class="active"';}?> href="<?php echo $linkpath ?>laparguera/laparguera.php">La Parguera Home</a></li>
     <li><a <?php if($page == 'laparguera-boating'){

@@ -3,12 +3,8 @@
 <?php $relpath= ""; $title="PR|About"; $page="about"; ?>
 <?php include "assets/inc/head.php" ?>
 
-<body>
-<div id="bodymain">
-
     <?php include "assets/inc/header.php" ?>
 
-    <main id="bodycopy">
         <h3>How I satisified the requirements of the project:</h3>
         <h4>1. Basic Design</h4>
         <div class="fig-move">
@@ -73,9 +69,4 @@
             <p><a href="https://i.pinimg.com/564x/5b/30/c1/5b30c13f5d76940ee0d2d3d5c0d57dd8.jpg" target="_blank">
                     Picture of people scuba diving(resized) - Pinterest</a></p>
         </div>
-        <p id="hidden">.</p>
-    </main>
-</div><!-- end bodymain -->
 <?php include "assets/inc/footer.html" ?>
-</body>
-</html>

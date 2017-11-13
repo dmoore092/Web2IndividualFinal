@@ -264,9 +264,9 @@
     #comments {
         resize: none;
     }
-    .span{
-        display: block;
-        width: 60;
+    span{
+        display: inline-block;
+        width: 700;
     }
 
     /* ------------MOBILE FOOTER ----------------------*/

@@ -29,15 +29,13 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php $relpath= ""; $title="PR|Home"; $page="home";
+<?php $relpath= ""; $title="PR|Comments"; $page="comments";
 $imgpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/";
 $linkpath = "http://serenity.ist.rit.edu/~dwmdis/240/project2/";
 $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/Web2IndividualFinal/";
 ?>
 <?php include "assets/inc/head.php" ?>
 
-<body>
-    <main id="bodycopy">
         <?php include "assets/inc/header.php" ?>
         <h1>
             <span id="tagline">Leave Your Comments Here!</span>
@@ -47,7 +45,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
               action= "comments.php"
               onsubmit = "" />
  <!-- name --><p>
-                <span class="span">Name:*</span>
+                <span class="span">Name:* &nbsp; </span>
                 <input type = "text"
                        id = "name"
                        name= "name"
@@ -66,7 +64,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                </p>
 <!-- comment--><p>
                 <textarea rows = "10"
-                          cols = "47"
+                          cols = "56"
                           name = "comments"
                           id = "comments"
                           placeholder = "Leave a comment here..."></textarea>
@@ -85,7 +83,4 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         ?>
         
     </div>
-    </main>
 <?php include "assets/inc/footer.html" ?>
-</body>
-</html>
