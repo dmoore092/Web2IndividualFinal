@@ -61,7 +61,12 @@
     .active:before{
         content: "\2192" ;
     }
-    
+    #web-header nav a, #localnav a{
+        background-color: #0064AB;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+    }
     /* ------MAIN CONTENT SECTION  ----*/
     h1{
         padding:25px 0;

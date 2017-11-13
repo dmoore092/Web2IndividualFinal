@@ -1,4 +1,4 @@
-<ul>
+<ul id="localnav">
     <li><a <?php if($page == 'rincon'){
             echo 'class="active"';}?> href="<?php echo $linkpath ?>rincon/rincon.php">Rincon Home</a></li>
     <li><a <?php if($page == 'rincon-food'){

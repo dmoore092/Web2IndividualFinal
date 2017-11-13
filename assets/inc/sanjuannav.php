@@ -1,4 +1,4 @@
-<ul>
+<ul id="localnav">
     <li><a <?php if($page == 'sanjuan'){
             echo 'class="active"';}?> href="<?php echo $linkpath ?>sanjuan/sanjuan.php">San Juan Home</a></li>
     <li><a <?php if($page == 'sanjuan-food'){
