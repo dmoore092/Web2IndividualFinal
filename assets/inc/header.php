@@ -41,10 +41,6 @@
     </div>
 </header>
 <header id="web-header">
-    <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
-             alt="pano of puerto rico" class="prpano" />
-        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
-             alt="pano of puerto rico" class="prpano" />
     <nav>
         <a <?php if($page == 'home' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a>
         <a <?php if($page == 'rincon' || $page == "rincon-food" ||  $page == "rincon-bars"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>rincon/rincon.php">Rincon</a>
@@ -53,4 +49,8 @@
         <a <?php if($page == 'comments' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>comments.php">Comments</a>
         <a <?php if($page == 'about' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>about.php">About</a>
     </nav>
+    <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
+             alt="pano of puerto rico" class="prpano" />
+        <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
+             alt="pano of puerto rico" class="prpano" />
 </header>
