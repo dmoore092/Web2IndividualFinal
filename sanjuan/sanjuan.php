@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-    <body>
-            <main class="clearfix" id="bodycopy">
                 <?php include "../assets/inc/header.php" ?>
                 <h1><span>San Juan,</span>
                     <span id="tagline">La Ciudad Amurallada</span>
@@ -63,9 +61,6 @@
                     the park is closed "until further notice". Hurricane Maria destroyed much of the park
                     and they have decided to close the park indefinitely.
                 </p>
-                <hr/>
                 <?php include "../assets/inc/footer.html" ?>
-            </main>
-    </body>
-</html>
+  
 

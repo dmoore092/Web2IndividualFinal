@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1>Rincon Bars!</h1>
 
@@ -53,14 +51,14 @@
                 <figcaption>Inside of La Estación</figcaption>
             </figure>
         </div>
-        <h2>Local Bars</h2>
-        <div class="body-copy-flex">
             <figure>
             <img src="<?php echo $imgpath ?>LaCambija300x225.jpg"
                 alt="pic of two drinks overlooking the ocean" />
                 <figcaption>Local bar overlooking the ocean</figcaption>
             </figure>
-            <p>
+            <h2>Local Bars</h2>
+            <div class="body-copy-flex">
+            <p class="indextextspacing">
                 This last place isn't a place, it's more of a type of bar. One of the things we love to do in Puerto
                 Rico is just drive around and see what we can find. Often times, taking a road you would otherwise skip
                 can lead to hidden treasures, such as where this was taken. We found this tiny local bar down by the
@@ -68,8 +66,5 @@
                 nice, the drinks always cold, and the views are always breathtaking.
             </p>
         </div>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>
+    

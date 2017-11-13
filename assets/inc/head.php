@@ -5,3 +5,5 @@
     <title><?php echo "$title" ?></title>
     <link type="text/css" href="<?php echo $relpath ?>assets/css/main.css" rel="stylesheet">
 </head>
+<body>
+    <main>

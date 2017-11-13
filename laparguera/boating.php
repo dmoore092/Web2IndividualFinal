@@ -6,8 +6,7 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
+
         <?php include "../assets/inc/header.php" ?>
         <h1>La Parguera Boating!</h1>
 
@@ -59,8 +58,4 @@
             the island is, and where the picnic tables and iguanas are. you can see our boat docked just to the left.
         </p>
         </div>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

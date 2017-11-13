@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1>La Parguera Scuba!</h1>
 
@@ -56,8 +54,4 @@
             like it. Rather than leaving you alone to dive, they would pair you up with a dive master who teaches you
             about safety and then does the dive with you, just to make sure you're ok.
         </p>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

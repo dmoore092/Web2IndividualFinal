@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1>San Juan Food!</h1>
 
@@ -47,8 +45,4 @@
             some fish tacos, a beer and people watching.
         </p>
         </div><!-- textflex -->
-        <hr class="clearfix" />
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

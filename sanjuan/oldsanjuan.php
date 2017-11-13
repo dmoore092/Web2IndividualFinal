@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1>Old San Juan!</h1>
 
@@ -43,11 +41,4 @@
                 <figcaption>El Morro</figcaption>
             </figure>
             </div>
-        <p class="clearfix">
-
-        </p>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

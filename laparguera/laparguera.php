@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1><span>La Parguera,</span>
             <span id="tagline">Dive the Wall!</span>
@@ -55,8 +53,4 @@
             some people who were staying in town for a full week to go out scuba diving everyday. They loved how chill
             and laid back the town was, especially in the evening.
         </p>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

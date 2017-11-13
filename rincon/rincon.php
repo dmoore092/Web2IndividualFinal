@@ -5,9 +5,7 @@
       $linkpath="http://serenity.ist.rit.edu/~dwmdis/240/project2/";
 ?>
 <?php include "../assets/inc/head.php" ?>
-
-<body>
-    <main class="clearfix" id="bodycopy">
+    
         <?php include "../assets/inc/header.php" ?>
         <h1><span>Rincon,</span>
             <span id="tagline">El mejor lugar para vivir</span>
@@ -56,8 +54,4 @@
                 <figcaption>Our personal private beach</figcaption>
             </figure>
         </div><!-- body-copy-flex -->
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>

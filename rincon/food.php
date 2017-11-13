@@ -6,8 +6,6 @@
 ?>
 <?php include "../assets/inc/head.php" ?>
 
-<body>
-    <main class="clearfix" id="bodycopy">
         <?php include "../assets/inc/header.php" ?>
         <h1>Rincon Food!</h1>
 
@@ -48,8 +46,4 @@
                 <figcaption>Pad Thai at The Green Thumb</figcaption>
             </figure>
         </div>
-        <hr/>
         <?php include "../assets/inc/footer.html" ?>
-    </main>
-</body>
-</html>
