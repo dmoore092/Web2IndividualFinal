@@ -2,7 +2,7 @@
     body{
         background-color: #0064AB;
     }
-    .small, #mobile-header{
+    .small, .medium, #mobile-header{
         display: none;
     }
     #web-header{
