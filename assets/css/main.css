@@ -1,5 +1,31 @@
+@media screen and ( min-width: 1500px){
+    body{
+        background-color: #0064AB;
+    }
+    .small, #mobile-header{
+        display: none;
+    }
+    #web-header{
+        background-color: #0064AB;
+    }
+    #web-header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    #web-header a{
+        padding:  5px 10px;
+        color: white;
+    }
+    main{
+        width:1300px;
+        /*margin:0 120px;*/
+        margin: auto;
+        background-color: white;
+        padding: 15px;
+    }
+}
 /* -- MAIN SECTION --*/
-@media screen and ( min-width: 451px) {
+@media screen and ( min-width: 451px) and (max-width: 1600px) {
     *{
         padding: 0;
         margin: 0;
@@ -17,8 +43,16 @@
     .big, #web-header{
         display: block;
     }
+    #web-header{
+        background-color: #0064AB;
+    }
+    #web-header nav{
+        display: flex;
+        justify-content: space-between;
+    }
     #web-header a{
         margin: 0 10px;
+        
     }
     .prpano{
         box-shadow: 8px 8px 20px;
@@ -62,7 +96,6 @@
         content: "\2192" ;
     }
     #web-header nav a, #localnav a{
-        background-color: #0064AB;
         color: white;
         border-radius: 5px;
         padding: 5px;
@@ -83,12 +116,6 @@
         font-family: "Lucida Handwriting", Arial, sans serif;
         font-size: .75em;
     }
-    /*#bodymain{
-        max-width:1000px;
-        height: auto;
-        background-color: white;
-        margin:auto;
-    }*/
     main{
         /*max-width:1000px;*/
         margin: auto;
@@ -149,6 +176,10 @@
         display: flex;
         flex-direction: row;
     }
+    #spacer-bar{
+        height: 30px;
+        background-color: #0064AB;
+    }
     footer ul{
         display: flex;
         flex-direction: column;
@@ -177,7 +208,6 @@
         float: right;
     }
 }   
-
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
     #web-header{
