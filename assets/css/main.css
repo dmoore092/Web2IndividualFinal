@@ -51,11 +51,11 @@
     #web-header, #localnav{
         background-color: #0064AB;
     }
-    #web-header nav{
+    #web-header nav, #localnav nav{
         display: flex;
         justify-content: space-between;
     }
-    #web-header a, #localnav{
+    #web-header a{
         margin: 0 10px;
         
     }
