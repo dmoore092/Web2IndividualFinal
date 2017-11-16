@@ -48,7 +48,7 @@
     .medium, #web-header{
         display: block;
     }
-    #web-header{
+    #web-header, #localnav{
         background-color: #0064AB;
     }
     #web-header nav{
