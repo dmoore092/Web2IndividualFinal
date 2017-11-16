@@ -100,7 +100,7 @@
     .active:before{
         content: "\2192" ;
     }
-    #web-header nav a, #localnav a{
+    #web-header nav a, #localnav nav a{
         color: white;
         border-radius: 5px;
         padding: 5px;
