@@ -13,7 +13,7 @@
 
         <?php include "../assets/inc/rinconnav.php" ?>
 
-        <figure>
+        <figure class="caption-bottom">
         <img class="small" src="<?php echo $imgpath ?>OurBeachSunset400x300.jpg"
              alt="rincon sunset"/>
         <img class="medium" src="<?php echo $imgpath ?>OurBeachSunset800.jpg"
@@ -38,6 +38,7 @@
                     they held a showing of the movie Moana, presented in spoken Spanish with English captions.
                  </p>
                 <h2>AirBnB</h2>
+                <div class="body-copy-flex">
                 <p class="indextext">
                     This is pretty much how I spent my entire vacation there! We rented an apt on
                     AirBnB, which we do whenever we travel. It's great to have an entire apartment to ourselves, and we
@@ -47,11 +48,12 @@
                     had a great view of <a href="http://villacofresi.com/">Villa Cofresi</a> down the beach, with its
                     patrons riding jet ski's, paragliding, and just generally enjoying the water.
                 </p>
-            </div><!-- textflex -->
-            <figure class="fig-move">
+                <figure>
             <img src="<?php echo $imgpath ?>daleBeach300x400.jpg"
              alt="dale on the beach" />
                 <figcaption>Our personal private beach</figcaption>
             </figure>
+                </div>
+            </div><!-- textflex -->
         </div><!-- body-copy-flex -->
         <?php include "../assets/inc/footer.html" ?>

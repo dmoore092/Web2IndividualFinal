@@ -100,6 +100,9 @@
     .active:before{
         content: "\2192" ;
     }
+    #web-header, #localnav{
+        margin-bottom: 15px;
+    }
     #web-header nav a, #localnav nav a{
         color: white;
         border-radius: 5px;
@@ -132,7 +135,7 @@
     }
     main img{
         float: left;
-        padding:0 15px 15px 0;
+        /*padding:0 15px 15px 0;*/
     }
     main ul{
         display: flex;
@@ -159,15 +162,55 @@
     }
     figure{
         float: left;
+        position: relative;
+    }
+    #float-right{
+        float: right;
     }
     figcaption{
         font-style: italic;
-        margin-bottom:25px;
+        position: absolute; 
+        color: white;
+        padding-right: 5px;
+        width: 100%;
+        height: 50px;
+        opacity: 0;
+        padding: 0;
+        bottom: 0%;
+    }
+    figure:before{
+        content: "?";
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 24px;
+        height: 24px;
+        /*border-radius: 12px;*/
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        transition: all 0.6s ease;
+        opacity: 0.75;
+        bottom: 10px;
+        left: 10px;
+    }
+    figure:hover:before {
+        opacity: 0;
+    }
+    figure:hover figcaption {
+        background-color: black;
+        transition: all 0.6s ease;
+        opacity: .75;
+        bottom: 0;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1.5em;
+        /*opacity: 1;
+        /*left: 0;*/
     }
     .fig-move , .figmove p{
         margin-left:25px;
     }
-    
     
     /* ---- FOOTER -------*/
     footer{
@@ -186,6 +229,7 @@
         background-color: #0064AB;
         /*background-color: #white;*/
         overflow: scroll;
+        margin-top: 15px;
     }
     #spacer-bar h3{
         color: white;
