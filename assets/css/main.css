@@ -23,8 +23,13 @@
         background-color: white;
         padding: 15px;
     }
+    #samanddale{
+        float: left;
+        padding: 0 15px 5px 0;
+    }
+
 }
-/* -- MAIN SECTION --*/
+/* -- MEDIUM SECTION --*/
 @media screen and ( min-width: 451px) and (max-width: 1600px) {
     *{
         padding: 0;
@@ -37,10 +42,10 @@
     #hidden{
         visibility: hidden;
     }
-    #mobile-header, .small{
+    #mobile-header, .small, .big{
         display: none;
     }
-    .big, #web-header{
+    .medium, #web-header{
         display: block;
     }
     #web-header{
@@ -177,9 +182,21 @@
         flex-direction: row;
     }
     #spacer-bar{
-        height: 30px;
+        height: 150px;
         background-color: #0064AB;
+        /*background-color: #white;*/
+        overflow: scroll;
     }
+    #spacer-bar h3{
+        color: white;
+    }
+    #spacer-bar a:link{
+        color: white;
+    }
+    #spacer-bar a:visited{
+        color: wheat;
+    }
+    
     footer ul{
         display: flex;
         flex-direction: column;
