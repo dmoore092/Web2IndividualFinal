@@ -83,10 +83,17 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                     <input type="submit"
                            value="Submit"
                            name = "btnsubmit"
-                           class="btn-submit" />
+                           class="btn-submit"
+                           id="btnSubmit"/>
                 </p>
-                <div class="g-recaptcha" data-sitekey="6LfdMDwUAAAAAOsxcmAK8OWn38cU4OQm_0P8uzlN"></div>
+                <div class="g-recaptcha" data-sitekey="6LfdMDwUAAAAAOsxcmAK8OWn38cU4OQm_0P8uzlN" data-callback="enableBtn"></div>
         </form>
+    <script>
+        document.getElementById("btnSubmit").disabled = true;
+        function enableBtn(){
+            document.getElementById("button1").disabled = false;
+        }
+    </script>
     <hr/>
     <div id="chat-box-area">
         <?php
