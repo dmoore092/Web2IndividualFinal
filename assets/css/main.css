@@ -325,6 +325,9 @@
 }   
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
+    #shifteverythingdown{
+    margin-top: 0px;
+}
     #web-header, .big, .medium{
         display: none;
     }
