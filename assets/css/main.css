@@ -159,8 +159,22 @@
     #samanddale{
         float: left;
     }
+    .foodtextspacing{
+        margin-left: 565px;
+    }
     .indextextspacing{
         height:260px;
+        margin-left: 10px;
+    }
+    .indextext{
+        margin-right: 5px;
+    }
+    .cuevatextspacing{
+        margin-left: 320px;
+        margin-bottom: 150px;
+    }
+    .move-over{
+        margin-left: 15px;
     }
     #tagline{
         font-family: "Lucida Handwriting", Arial, sans serif;
@@ -250,9 +264,9 @@
         /*opacity: 1;
         /*left: 0;*/
     }
-    .fig-move , .figmove p{
+    /*.fig-move , .figmove p{
         margin-left:25px;
-    }
+    }*/
     
     /* ---- FOOTER -------*/
     #spacer-bar{

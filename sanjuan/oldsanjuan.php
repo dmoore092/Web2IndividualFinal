@@ -16,14 +16,16 @@
              alt="old san juan street"/>
             <figcaption>Old Street in Old San Juan</figcaption>
         </figure>
-        <h2>Cobblestone Streets</h2>
-        <p class="indextextspacing">
-            By far one of the coolest places in Puerto Rico is San Juan. It's full of narrow streets, old buildings,
-            and tons of independent shops. It's a fantastic place to just walk around. There is a large port where
-            cruise ships dock for tourists to get off and explore the Old City. You could really stay in Old San Juan
-            for an entire trip, as there are really neat hotels and hostels in the area, along with great restaurants
-            and bars, nightclubs and tons of shopping.
-        </p>
+        <div class="indextextspacing">
+            <h2>Cobblestone Streets</h2>
+                <p>
+                    By far one of the coolest places in Puerto Rico is San Juan. It's full of narrow streets, old buildings,
+                    and tons of independent shops. It's a fantastic place to just walk around. There is a large port where
+                    cruise ships dock for tourists to get off and explore the Old City. You could really stay in Old San Juan
+                    for an entire trip, as there are really neat hotels and hostels in the area, along with great restaurants
+                    and bars, nightclubs and tons of shopping.
+                </p>
+            </div>
         <h2>El Morro</h2>
         <div class="body-copy-flex">
             <p>
