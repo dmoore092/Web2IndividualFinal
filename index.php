@@ -9,6 +9,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 
 
         <?php include "assets/inc/header.php" ?>
+        <div id="shifteverythingdown"></div>
         <h1>
             <span id="tagline">Isla del Encanto</span>
         </h1>

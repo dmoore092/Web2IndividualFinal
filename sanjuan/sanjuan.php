@@ -7,6 +7,7 @@
 <?php include "../assets/inc/head.php" ?>
 
                 <?php include "../assets/inc/header.php" ?>
+                <div id="shifteverythingdown"></div>
                 <h1><span>San Juan,</span>
                     <span id="tagline">La Ciudad Amurallada</span>
                 </h1>

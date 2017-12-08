@@ -7,6 +7,7 @@
 <?php include "../assets/inc/head.php" ?>
 
         <?php include "../assets/inc/header.php" ?>
+        <div id="shifteverythingdown"></div>
         <h1><span>La Parguera,</span>
             <span id="tagline">Dive the Wall!</span>
         </h1>

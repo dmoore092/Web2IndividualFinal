@@ -8,6 +8,7 @@
 
 
         <?php include "../assets/inc/header.php" ?>
+        <div id="shifteverythingdown"></div>
         <h1>La Parguera Boating!</h1>
 
         <?php include "../assets/inc/lapargueranav.php" ?>

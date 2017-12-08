@@ -7,6 +7,7 @@
 <?php include "../assets/inc/head.php" ?>
 
         <?php include "../assets/inc/header.php" ?>
+        <div id="shifteverythingdown"></div>
         <h1>San Juan Food!</h1>
 
         <?php include "../assets/inc/sanjuannav.php" ?>

@@ -7,6 +7,7 @@
 <?php include "../assets/inc/head.php" ?>
     
         <?php include "../assets/inc/header.php" ?>
+        <div id="shifteverythingdown"></div>
         <h1><span>Rincon,</span>
             <span id="tagline">El mejor lugar para vivir</span>
         </h1>

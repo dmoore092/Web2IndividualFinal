@@ -45,6 +45,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         <?php include "assets/inc/header.php" ?>
         <?php include "assets/inc/db_con.php" ?>
     <script><?php include "assets/scripts/cs_validation.js" ?></script>
+    <div id="shifteverythingdown"></div>
     <h1><span id="tagline">Leave Your Comments Here!</span></h1>
         <form id="comments-form"
               method = "POST"
