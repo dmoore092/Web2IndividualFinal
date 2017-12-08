@@ -88,6 +88,9 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         </form>
     <hr/>
     <div id="chat-box-area">
+        <script>var commentWindow = document.getElementById("display-comments");
+                    commentWindow.scrollTop = myDiv.scrollHeight;
+        </script>
         <?php
             //conncet to database on pageload
             $mysqli = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
