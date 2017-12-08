@@ -27,6 +27,22 @@
         float: left;
         padding: 0 15px 5px 0;
     }
+    #spacer-bar{
+        height: 350px;
+        background-color: #0064AB;
+        /*background-color: #white;*/
+        overflow: scroll;
+        margin-top: 15px;
+    }
+    #spacer-bar h3{
+        color: white;
+    }
+    #spacer-bar a:link{
+        color: white;
+    }
+    #spacer-bar a:visited{
+        color: wheat;
+    }
 
 }
 /* -- MEDIUM SECTION --*/
@@ -392,5 +408,21 @@
     }
     #hidden{
         visibility: hidden;
+    }
+    #spacer-bar{
+        height: 150px;
+        background-color: #0064AB;
+        /*background-color: #white;*/
+        overflow: scroll;
+        margin-top: 15px;
+    }
+    #spacer-bar h3{
+        color: white;
+    }
+    #spacer-bar a:link{
+        color: white;
+    }
+    #spacer-bar a:visited{
+        color: wheat;
     }
 }

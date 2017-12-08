@@ -1,16 +1,21 @@
 <?php
+    error_reporting(0);
+    /*BEGINNING of php validation */
     if(!empty($_POST)){
-        
         $errors = [];
-        $message = "";
-        $feedback = "";
-        
+        //name
         if(strlen($_POST["name"]) == 0){
-            $errors[] = "Please enter a name to post with.<br/>";
+            $errors[] = "Please enter a name.<br/>";
         }
         
+        //subject
         if(strlen($_POST["subject"]) == 0){
             $errors[] = "Please enter a subject.<br/>";
+        }
+        
+        //comment
+        if(strlen($_POST["comment"]) == 0){
+            $errors[] = "Please enter a comment.<br/>";
         }
         
         if(!empty($errors)){
@@ -20,12 +25,13 @@
                 $feedback .= $errors[$i];
             }
         }
-        else{
-            $message = $_POST["name"] . " is talking about " . $_POST["subject"] . "\r\n";
-            $message .= "and says: " . $_POST["comments"] . "\r\n";
-            
-        }
     }
+    
+   // else{
+      //  $feedback = "does this work?";
+    //}
+    /*END OF PHP VALIDATION */
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,13 +43,13 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 <?php include "assets/inc/head.php" ?>
 
         <?php include "assets/inc/header.php" ?>
-        <h1>
-            <span id="tagline">Leave Your Comments Here!</span>
-        </h1>
+        <?php include "assets/inc/db_con.php" ?>
+    <script><?php include "assets/scripts/cs_validation.js" ?></script>
+    <h1><span id="tagline">Leave Your Comments Here!</span></h1>
         <form id="comments-form"
-              method = "post"
+              method = "POST"
               action= "comments.php"
-              onsubmit = "" />
+              onsubmit = "return validate();">
  <!-- name --><p>
                 <span class="span">Name:* &nbsp; </span>
                 <input type = "text"
@@ -51,7 +57,8 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        name= "name"
                        size = "25"
                        maxlength = "25"
-                       value="" /> 
+                       value="<?= $_POST['name']  ?>"
+                       onclick="changeColor(this.id)"/> 
               </p>
 <!-- subject --><p>
                 <span class="span">Subject:*</span>
@@ -60,27 +67,77 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                        name = "subject"
                        size = "47"
                        maxlength = "47"
-                       value="" />
+                       value="<?= $_POST['subject']  ?>" 
+                       onclick="changeColor(this.id)" />
                </p>
 <!-- comment--><p>
                 <textarea rows = "10"
                           cols = "56"
-                          name = "comments"
-                          id = "comments"
-                          placeholder = "Leave a comment here..."></textarea>
+                          name = "comment"
+                          id = "comment"
+                          placeholder = "Leave a comment here..."
+                          onclick="changeColor(this.id)"></textarea>
                </p>
-                <p>
+ <!--submit--><p>
                     <input type="submit"
-                           value="Contact Me"
-                           class="btn btn-submit" />
+                           value="Submit"
+                           name = "btnsubmit"
+                           class="btn-submit" />
                 </p>
         </form>
     <hr/>
     <div id="chat-box-area">
-        <p>test chat box area</p>
-        <?php 
-            echo $message;
-        ?>
+        <?php
+            //conncet to database on pageload
+            $mysqli = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
+                //CONNECT TO DATABASE
+                if(!$mysqli){
+                    echo "connection error: " . mysqli_connect_error();
+                    die();
+                }
+                //QUERY THE DATABASE for comments to display
+                $query = "SELECT * 
+                          FROM final_exam_comments";
+
+                $result = mysqli_query($mysqli, $query);
+
+                $num_rows = mysqli_affected_rows($mysqli);
+                echo "<p>There are $num_rows comments.</p>";
+                if($result && $num_rows > 0){
+                    while($row = mysqli_fetch_assoc($result)){
+                        echo "<div id='comments'>Name: " . $row["name"] . "..." . "<br/>" . "Subject: " . $row["subject"] . "<br/>" . "Comment: " . "<em>" . $row["comment"] . "</em>" . "</div>" . "<br/><hr/>";
+                    }
+                }
+            //check if there is any feedback, display it to the screen
+            if(!empty($feedback)){
+                echo $feedback;
+                echo $msg;
+            }
+            //SEND COMMENT TO DATABASE
+            if(isset($_POST["btnsubmit"])){
+                //block cross-site scripting, html entities(apersand etc), trim white space
+                $name    =  htmlentities(strip_tags(trim($_POST["name"])));
+                $subject =  htmlentities(strip_tags(trim($_POST["subject"])));
+                $comment =  htmlentities(strip_tags(trim($_POST["comment"])));
         
+                //block sql injections
+                $name    = mysqli_real_escape_string($mysqli, $_POST["name"]);
+                $subject = mysqli_real_escape_string($mysqli, $_POST["subject"]);
+                $comment = mysqli_real_escape_string($mysqli, $_POST["comment"]);
+        
+                //build the database query
+                $query   = "INSERT INTO final_exam_comments 
+                            SET name = '" . $name . "',
+                                subject = '" . $subject . "',
+                                comment = '" . $comment. "'";
+        
+                $result = mysqli_query($mysqli, $query);
+                $num_rows = mysqli_affected_rows($mysqli);
+        
+                if($result && $num_rows > 0){
+                    $msg = $_POST["name"] . " was successfully saved.";
+                }
+            }
+        ?>
     </div>
 <?php include "assets/inc/footer.html" ?>
