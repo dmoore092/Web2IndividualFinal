@@ -104,7 +104,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
 
                 $num_rows = mysqli_affected_rows($mysqli);
                 echo "<p>There are $num_rows comments.</p>";
-                echo "<div id='displayComments'>";
+                echo "<div id='display-comments'>test";
                 if($result && $num_rows > 0){
                     while($row = mysqli_fetch_assoc($result)){
                         echo "<div id='comments'>Name: " . $row["name"] . "..." . "<br/>" . "Subject: " . $row["subject"] . "<br/>" . "Comment: " . "<em>" . $row["comment"] . "</em>" . "</div>" . "<br/><hr/>";
