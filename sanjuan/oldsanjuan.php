@@ -16,6 +16,7 @@
              alt="old san juan street"/>
             <figcaption>Old Street in Old San Juan</figcaption>
         </figure>
+    <div class="body-copy-flex">
         <div class="indextextspacing">
             <h2>Cobblestone Streets</h2>
                 <p>
@@ -26,6 +27,7 @@
                     and bars, nightclubs and tons of shopping.
                 </p>
             </div>
+    </div>
         <h2>El Morro</h2>
         <div class="body-copy-flex">
             <p>

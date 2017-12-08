@@ -49,10 +49,10 @@
                     patrons riding jet ski's, paragliding, and just generally enjoying the water.
                 </p>
                 <figure>
-            <img src="<?php echo $imgpath ?>daleBeach300x400.jpg"
-             alt="dale on the beach" />
-                <figcaption>Our personal private beach</figcaption>
-            </figure>
+                    <img src="<?php echo $imgpath ?>daleBeach300x400.jpg"
+                         alt="dale on the beach" />
+                    <figcaption>Our personal private beach</figcaption>
+                </figure>
                 </div>
             </div><!-- textflex -->
         </div><!-- body-copy-flex -->

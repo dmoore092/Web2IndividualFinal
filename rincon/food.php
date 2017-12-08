@@ -33,7 +33,7 @@
         </div>
         <h2>The Green Thumb</h2>
         <div class="body-copy-flex">
-            <div>
+            <div class="indextext">
                 <p>What impressed us the most was the first time we found this place, they had a gluten-free Pad Thai
                 on special that night. We were more than a little concerned that they might not know what they were
                 doing, but we took a chance and it turned out to be one of the most delicious meals we've ever had, in
@@ -43,8 +43,8 @@
                 trucks around that homemade their tortillas right there in the truck, so we could be guaranteed there
                 wasn't any contamination.</p>
             </div>
-            <figure class="fig-move">
-            <img src="<?php echo $imgpath ?>padThai300x225.jpg" alt="pad thai"/>
+            <figure>
+                <img src="<?php echo $imgpath ?>padThai300x225.jpg" alt="pad thai"/>
                 <figcaption>Pad Thai</figcaption>
             </figure>
         </div>

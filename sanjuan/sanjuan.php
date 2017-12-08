@@ -37,7 +37,7 @@
                 </p>
                 <h2>Beach Town</h2>
                 <div class="body-copy-flex">
-                    <p>
+                    <p class="indextext">
                         San Juan, despite being a city, has some gorgeous beaches. This is a picture of
                         the beach we spent most of our time on. I love the high rise buildings, which are hotels and
                         condos, right on the beach. Despite what you'd think, they beach was never that busy, and we
@@ -45,7 +45,7 @@
                         come onto the beach to lay eggs, so the authorities had sectioned off the area so they turtle
                         eggs could hatch without being bothered by tourists.
                     </p>
-                    <figure class="fig-move">
+                    <figure>
                     <img src="<?php echo $imgpath ?>SanJuan300x169.jpg"
                         alt="image of san juan beach" />
                         <figcaption>Condado Beach</figcaption>

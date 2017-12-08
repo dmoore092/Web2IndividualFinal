@@ -17,14 +17,18 @@
             <figcaption>Credit: <a href="https://www.tripadvisor.com/Attraction_Review-g672292-d302464-Reviews-Paradise_Scuba_and_Snorkeling_Center-La_Parguera_Puerto_Rico.html#photos;geo=147319&detail=302464&aggregationId=101">
                     Trip Advisor</a></figcaption>
         </figure>
-        <h2>Paradise Scuba</h2>
-        <p class="indextextspacing">
-            Anytime we go somewhere, Sam sits on the beach and I look for a scuba trip. I became scuba certified in 2015,
-            and have since dove in 4 countries and I love it. This is how I found La Parguera in the first place. I hooked
-            up with a dive outfit called <a href="http://www.paradisescubasnorkelingpr.com/">Paradise Scuba</a>. They
-            were one of the best dive outfits that I've experienced. Their boat, pictured here, was great! Their dive
-            sites are also fantastic and their dive masters were top notch.
-        </p>
+        <div class="body-copy-flex">
+            <div class="indextextspacing">
+                <h2>Paradise Scuba</h2>
+                <p>
+                    Anytime we go somewhere, Sam sits on the beach and I look for a scuba trip. I became scuba certified in 2015,
+                    and have since dove in 4 countries and I love it. This is how I found La Parguera in the first place. I hooked
+                    up with a dive outfit called <a href="http://www.paradisescubasnorkelingpr.com/">Paradise Scuba</a>. They
+                    were one of the best dive outfits that I've experienced. Their boat, pictured here, was great! Their dive
+                    sites are also fantastic and their dive masters were top notch.
+                </p>
+            </div>
+        </div>
         <h2>Diving my own dive</h2>
         <div class="body-copy-flex">
         <p>
