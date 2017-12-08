@@ -134,8 +134,11 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         
                 $result = mysqli_query($mysqli, $query);
                 $num_rows = mysqli_affected_rows($mysqli);
-                header("location: index.php");
-                exit();
+                
+                //reset all the fields
+                $_POST["name"] = "";
+                $_POST["subject"] = "";
+                $_POST["comment"] = "";
                 if($result && $num_rows > 0){
                     $msg = $_POST["name"] . " was successfully saved.";
                 }
