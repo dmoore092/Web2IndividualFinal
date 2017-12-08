@@ -139,8 +139,8 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 $num_rows = mysqli_affected_rows($mysqli);
                 
                 //reset all the fields
-                header("Location: http://serenity.ist.rit.edu/~dwmdis/240/project2/comments.php");
-                exit();
+                echo "<script type='text/javascript'> document.location = 'comments.php'; </script>";
+                
                 if($result && $num_rows > 0){
                     $msg = $_POST["name"] . " was successfully saved.";
                 }
