@@ -50,10 +50,10 @@
         <a <?php if($page == 'comments' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>comments.php">Comments</a>
         <a <?php if($page == 'about' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>about.php">About</a>
     </nav>
-    <img class="small prpano" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
+    <img class="small" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" />
-    <img class="medium prpano" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
+    <img class="medium" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
              alt="pano of puerto rico" />
-    <img class="big prpano" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1300.png"
+    <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1300.png"
              alt="pano of puerto rico" />
 </header>

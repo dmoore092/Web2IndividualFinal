@@ -325,7 +325,7 @@
 }   
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
-    #web-header, .big{
+    #web-header, .big, .medium{
         display: none;
     }
     #click-here{
@@ -334,6 +334,9 @@
     }
     #close-nav{
         display: inline;
+    }
+    .small{
+        display: block;
     }
     nav ul li{
         list-style: none;
@@ -379,12 +382,6 @@
         margin-left: 15px;
     }
     /*-------------MAIN SECTION -----------------------*/
-    .big{
-        display: none;
-    }
-    .small{
-        display: block;
-    }
     hr{
         display: none;
     }
