@@ -28,8 +28,10 @@
         </div>
         <h4>Extras</h4>
         <div class="fig-move">
-            <p>1. I added an automatically updating RSS feed to the footer that displays news headlines relating to Puerto Rico.</p>
-            <p>2. I added a No CAPTCHA reCAPTCHA</p>
+            <p>1. Added an automatically updating RSS feed to the footer that displays news headlines relating to Puerto Rico.</p>
+            <p>2. Added a No CAPTCHA reCAPTCHA to the comments page.</p>
+            <p>3. Added FavIcon, Touch icons for both Android and iOS for when a user saves my website to their mobile homescreen, and added 3 sizes of Microsoft Windows 10 live tiles.</p>
+            <p>4. Added a Google Translate widget to the website. Translates the text of the website into many languages.</p>
         </div>
         <h3>Citations:</h3>
         <div class="fig-move">
