@@ -15,7 +15,7 @@
         <figure>
             <img src="<?php echo $imgpath ?>lapargueraboat300x225.jpg"
              alt="pic of boat we rented"/>
-            <figcaption>Boat docked in the offshore island</figcaption>
+            <figcaption>Boat dock</figcaption>
         </figure>
         <div class="body-copy-flex">
             <div class="indextextspacing">

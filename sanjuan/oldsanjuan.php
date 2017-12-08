@@ -30,11 +30,8 @@
     </div>
         <h2>El Morro</h2>
         <div class="body-copy-flex">
-            <p>
-                It also houses two old forts from it's time under Spanish rule. El Morro is the
-                big one that gets most of the attention. It's an old fort that you can wander around and has some great views.
-                It also overlooks the Bacardi factory over the bay. Cruise ships pass right by
-                El Morro on their way into San Juan as well. La Perla is also located in Old San Juan. La Perla is a very
+            <p class="indextext">
+                It also houses two old forts from its time under Spanish rule. El Morro gets most of the attention. It's an old fort that you can wander around and has some great views. It also overlooks the Bacardi factory over the bay. Cruise ships pass right by El Morro on their way into San Juan. Nearby, La Perla is a very
                 poor neighborhood but it was featured in the video for the song Despacito, which has made it into a tourist
                 attraction of sorts. However, I don't recommend wandering around there.
                 The people who live there live in extreme poverty and might not like people gawking at them.

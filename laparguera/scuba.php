@@ -35,11 +35,10 @@
             One of the things I loved most about diving with them was the way they handled the dives. Normally the way
             a dive trip works, is that on the boat, they pair you up with a buddy and you guys stick together throughout
             the dive. If one of you uses up all of your available air, or want to see different things, then you have to
-            compromise....assuming you didn't bring your own dive buddy. However with Paradise Scuba, they had everyone
+            compromise. However with Paradise Scuba, they had everyone
             dive alone, but they sent several dive masters down with the whole group, and it was their job to make sure
             that no one was getting lost or into trouble. So I got to dive my own dive, taking as long as I wanted and
-            seeing what I wanted to see. They also lead us through one of the dives down an area called "The Wall" due to
-            the fact that it was a sheer drop down into the blue abyss. It was fantastic!
+            seeing what I wanted to see. 
         </p>
             <figure class="fig-move">
             <img src="<?php echo $imgpath ?>paradisescubaunderwater300x189.jpg"

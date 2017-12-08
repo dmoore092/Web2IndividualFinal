@@ -6,7 +6,7 @@
 <?php include "assets/inc/head.php" ?>
 
     <?php include "assets/inc/header.php" ?>
-
+        <div id="shifteverythingdown"></div>
         <h3>How I satisified the requirements of the project:</h3>
         <h4>1. Basic Design</h4>
         <div class="fig-move">

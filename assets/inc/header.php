@@ -45,7 +45,7 @@
     <nav>
         <a <?php if($page == 'home' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>index.php">Home</a>
         <a <?php if($page == 'rincon' || $page == "rincon-food" ||  $page == "rincon-bars"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>rincon/rincon.php">Rincon</a>
-        <a <?php if($page == 'sanjuan' || $page == "sanjuan-food" ||  $page == "oldsanjuan"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>sanjuan/sanjuan.php">San Juan</a>
+        <a <?php if($page == 'sanjuan' || $page == "sanjuan-food" ||  $page == "sanjuan-old"){  echo 'class="active"';}?> href="<?php echo $linkpath ?>sanjuan/sanjuan.php">San Juan</a>
         <a <?php if($page == 'laparguera' || $page == "laparguera-boating" ||  $page == "laparguera-scuba"){ echo 'class="active"';}?> href="<?php echo $linkpath ?>laparguera/laparguera.php">La Parguera</a>
         <a <?php if($page == 'comments' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>comments.php">Comments</a>
         <a <?php if($page == 'about' ){  echo 'class="active"';}?> href="<?php echo $linkpath ?>about.php">About</a>
