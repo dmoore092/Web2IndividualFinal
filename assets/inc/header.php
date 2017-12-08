@@ -1,7 +1,7 @@
 
 <header id="mobile-header">
     <script src="<?php echo $relpath ?>assets/scripts/navigation.js"></script>
-    <span id="click-here" onclick="openNav()"><img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/icons/hamburger25x21.png" alt="hamburder icon"></span>
+    <span id="click-here" onclick="openNav()"><img src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/icons/hamburger25x21.png" alt="hamburger icon"></span>
         <nav id="myMobilenav" class="mobilenav">
             <a id="close-nav" href="#" class="closebtn" onclick="closeNav(); closeSubNav()">&times;</a>
             <div class="sub-navlist">
