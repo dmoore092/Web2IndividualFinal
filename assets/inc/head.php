@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo "$title" ?></title>
     <link type="text/css" href="<?php echo $relpath ?>assets/css/main.css" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script><!-- google recaptcha -->
 </head>
 <body>
     <main>

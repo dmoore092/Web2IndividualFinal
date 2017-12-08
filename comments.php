@@ -85,6 +85,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                            name = "btnsubmit"
                            class="btn-submit" />
                 </p>
+                <div class="g-recaptcha" data-sitekey="6LfdMDwUAAAAAOsxcmAK8OWn38cU4OQm_0P8uzlN"></div>
         </form>
     <hr/>
     <div id="chat-box-area">
