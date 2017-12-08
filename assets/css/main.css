@@ -3,6 +3,7 @@
 }
 #display-comments{
     height: 50px;
+    overflow: scroll;
 }
 /* Extra large screens*/
 @media screen and ( min-width: 1500px){
