@@ -91,7 +91,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
     <script>
         document.getElementById("btnSubmit").disabled = true;
         function enableBtn(){
-            document.getElementById("button1").disabled = false;
+            document.getElementById("btnSubmit").disabled = false;
         }
     </script>
     <hr/>
