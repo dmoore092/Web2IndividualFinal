@@ -79,6 +79,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                           placeholder = "Leave a comment here..."
                           onclick="changeColor(this.id)"></textarea>
                </p>
+                <div class="g-recaptcha" data-sitekey="6LfdMDwUAAAAAOsxcmAK8OWn38cU4OQm_0P8uzlN" data-callback="enableBtn"></div>
  <!--submit--><p>
                     <input type="submit"
                            value="Submit"
@@ -86,7 +87,6 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                            class="btn-submit"
                            id="btnSubmit"/>
                 </p>
-                <div class="g-recaptcha" data-sitekey="6LfdMDwUAAAAAOsxcmAK8OWn38cU4OQm_0P8uzlN" data-callback="enableBtn"></div>
         </form>
     <script>
         document.getElementById("btnSubmit").disabled = true;

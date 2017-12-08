@@ -29,7 +29,7 @@
         <h4>Extras</h4>
         <div class="fig-move">
             <p>1. I added an automatically updating RSS feed to the footer that displays news headlines relating to Puerto Rico.</p>
-            <p></p>
+            <p>2. I added a No CAPTCHA reCAPTCHA</p>
         </div>
         <h3>Citations:</h3>
         <div class="fig-move">
