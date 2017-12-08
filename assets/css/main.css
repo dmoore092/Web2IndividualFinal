@@ -325,7 +325,7 @@
 }   
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
-    #web-header{
+    #web-header, .big{
         display: none;
     }
     #click-here{
