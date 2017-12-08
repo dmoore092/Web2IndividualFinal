@@ -140,7 +140,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 
                 //reset all the fields
                 header("Location: http://serenity.ist.rit.edu/~dwmdis/240/project2/comments.php");
-                
+                exit();
                 if($result && $num_rows > 0){
                     $msg = $_POST["name"] . " was successfully saved.";
                 }
