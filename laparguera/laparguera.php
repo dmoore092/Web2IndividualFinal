@@ -12,7 +12,8 @@
             <span id="tagline">Dive the Wall!</span>
         </h1>
         <?php include "../assets/inc/lapargueranav.php" ?>
-        <figure>
+    <div class="floaters">    
+    <figure>
             <img src="<?php echo $imgpath ?>laparguerasteps300x225.jpg"
                 alt="sam standing on steps at la parguera"/>
             <figcaption>Steps in La Parguera</figcaption>
@@ -25,6 +26,7 @@
                 </p>
             </div>
         </div>
+    </div>
         <h2>Things to do</h2>
         <div class="body-copy-flex">
             <p class="indextext">
