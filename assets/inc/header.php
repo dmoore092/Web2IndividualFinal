@@ -31,8 +31,8 @@
                     <a class="subnav3" href="<?= $linkpath ?>laparguera/scuba.php">La Parguera Scuba</a>
                 </div>
             </div><!-- END <div class="sub-navlist> -->
-            <div><a <?php if($page == 'about'){ echo 'class="active"';}?> href="#">About</a></div>
             <div><a <?php if($page == 'comments'){ echo 'class="active"';}?> href="<?= $linkpath ?>comments.php">Comments</a></div>
+            <div><a <?php if($page == 'about'){ echo 'class="active"';}?> href="<?= $linkpath ?>about.php">About</a></div>
     </nav>
         <img class="small prpano" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader400.png"
              alt="pano of puerto rico" />
@@ -54,6 +54,6 @@
              alt="pano of puerto rico" />
     <img class="medium" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader800.png"
              alt="pano of puerto rico" />
-    <img class="big" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1300.png"
+    <img class="big" id="large" src="http://serenity.ist.rit.edu/~dwmdis/240/project2/assets/media/images/prpanoheader1300.png"
              alt="pano of puerto rico" />
 </header>

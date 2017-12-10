@@ -48,10 +48,7 @@ nav ul li {
     padding: 5px;
 }
 /* ----End of Navigation stuff ---*/
-/*#mainflex{
-    display: flex;
-    justify-content:space-around;
-}*/
+
 /*-----Main Body stuff ---*/
 .foodtextspacing{
     margin-left: 565px;
@@ -158,10 +155,6 @@ figure:hover figcaption {
     padding:25px 0;
     font-family:Georgia, sans serif;
 }
-/*#samanddale{
-    float: left;
-    padding: 0 15px 5px 0;
-}*/
 #shifteverythingdown{
     margin-top: 280px;
 }
@@ -232,6 +225,12 @@ footer a:hover{
 @media screen and ( min-width: 1500px){
     .small, .medium, #mobile-header{
         display: none;
+    }
+    #large{
+        width: 1269px;
+    }
+    body{
+        
     }
     main{
         width:1300px;
