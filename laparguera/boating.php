@@ -12,7 +12,7 @@
         <h1>La Parguera Boating!</h1>
 
         <?php include "../assets/inc/lapargueranav.php" ?>
-
+    <div class="floaters">
         <figure>
             <img src="<?php echo $imgpath ?>lapargueraboat300x225.jpg"
              alt="pic of boat we rented"/>
@@ -34,6 +34,7 @@
                 </p>
             </div>
         </div>
+    </div>
         <h2>No Boat License Necessary</h2>
         <div class="body-copy-flex">
         <p class="indextext">
@@ -50,6 +51,7 @@
             </figure>
         </div>
         <div>
+            <div class="floaters">
         <figure>
             <img src="<?php echo $imgpath ?>laparguerapool2-300x225.jpg"
                  alt="sam in the pool" />
@@ -65,4 +67,5 @@
                     </p>
             </div>
         </div>
+            </div>
         <?php include "../assets/inc/footer.html" ?>

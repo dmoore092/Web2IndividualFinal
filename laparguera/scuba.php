@@ -11,7 +11,7 @@
         <h1>La Parguera Scuba!</h1>
 
         <?php include "../assets/inc/lapargueranav.php" ?>
-        
+        <div class="floaters">
         <figure>
         <img src="<?php echo $imgpath ?>pardisescuba300x225.jpg"
              alt="paradise scuba boat"/>
@@ -30,6 +30,7 @@
                 </p>
             </div>
         </div>
+    </div>
         <h2>Diving my own dive</h2>
         <div class="body-copy-flex">
         <p>
