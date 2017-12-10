@@ -11,8 +11,7 @@
         <h1>Rincon Food!</h1>
 
         <?php include "../assets/inc/rinconnav.php" ?>
-
-    
+    <div class="floaters">
             <figure>
             <img src="<?php echo $imgpath ?>MoscowMule300x225.jpg"
                  alt="dale drinking a moscow mule"/>
@@ -32,6 +31,7 @@
             </p>
             </div>
         </div>
+    </div>
         <h2>The Green Thumb</h2>
         <div class="body-copy-flex">
             <div class="indextext">
