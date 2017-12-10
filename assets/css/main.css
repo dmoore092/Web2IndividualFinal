@@ -105,6 +105,7 @@ main h4, main h3{
 figure{
     float: left;
     position: relative;
+    margin-bottom: 15px;
 }
 #float-right{
     float: right;
