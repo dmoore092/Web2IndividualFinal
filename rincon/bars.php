@@ -38,15 +38,10 @@
         <h2>La Estacion</h2>
         <div class="body-copy-flex">
             <div>
-                <p>While walking around downtown Rincon, my ears caught something that was wholly out of place in the land
-                of Raggaeton and island music; it was the sound of heavy metal music. I've always been a fan of hard rock
-                and heavy metal music, and it's quite rare to hear it in our travels. Upon further inspection, we found
-                a bar that you could easily mistake for a mechanic's garage if it weren't for the rock music blasting
-                    out from the inside, the patrons moving in and out, and the tiny taco shop set up outside.</p><p> It turns out
+                <p>While walking around downtown Rincon, we could hear the sound of heavy metal music, which is usual for the island. Following the sound, we found
+                a bar that you could easily mistake for a mechanic's garage if it weren't for the patrons moving in and out, and the tiny taco shop set up outside.</p><p> It turns out
                 we had found La Estación(The Station), which is run by mainlanders who moved to Puerto Rico generations
-                ago, and they did their own take on a biker bar. We went in for some drinks and Sam went out to talk
-                with the people in the taco shop. It turns out that it was run by a woman who had Celiac as well, so
-                she made Sam some very delicious gluten free tacos. We ended up going back here several times as well.</p>
+                ago, and they did their own take on a biker bar. The taco stand out front was run by a woman who had Celiac as well, so she made Sam some very delicious gluten free tacos. We ended up going back here several times as well.</p>
             </div>
             <figure class="fig-move">
             <img src="<?php echo $imgpath ?>LaEstacion300x220.jpg"
