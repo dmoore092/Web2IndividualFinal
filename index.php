@@ -13,8 +13,11 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
         <h1>
             <span id="tagline">Isla del Encanto</span>
         </h1>
-        <img src="<?php echo $imgpath ?>samanddale400.jpg"
-             id="samanddale" alt="pic of sam and dale in puerto rico"/>
+        <figure>
+            <img src="<?php echo $imgpath ?>samanddale400.jpg"
+                id="samanddale" alt="pic of sam and dale in puerto rico"/>
+            <figcaption>Dale and Sam</figcaption>
+        </figure>
         <div id="body-text">
         <h2>Who are We?</h2>
         <p>We are Dale and Sam. We are both Sign
