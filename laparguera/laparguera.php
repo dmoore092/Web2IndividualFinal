@@ -27,7 +27,6 @@
             </div>
         </div>
     </div>
-    <div class="floaters">
         <h2>Things to do</h2>
         <div class="body-copy-flex">
             <p class="indextextspacing">
@@ -44,7 +43,6 @@
                 <figcaption>Entrance to offshore island</figcaption>
             </figure>
         </div>
-    </div>
         <h2>Don't miss this town!</h2>
         <p>
             If you can fit it in, La Parguera is not a place that should be missed. It's best to come during the weekday,
