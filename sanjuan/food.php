@@ -11,7 +11,7 @@
         <h1>San Juan Food!</h1>
 
         <?php include "../assets/inc/sanjuannav.php" ?>
-        
+        <div class="floaters">
         <figure>
             <img id="TAShrink" alt="" src="https://media-cdn.tripadvisor.com/media/photo-s/07/ea/53/b4/la-b-de-burro.jpg"/>
             <figcaption>Courtesy of <a href="https://www.tripadvisor.com/LocationPhotoDirectLink-g147320-d2445117-i132797334-La_B_de_Burro-San_Juan_Puerto_Rico.html#132797334">
@@ -35,6 +35,8 @@
                 ruining her trip.
             </p>
         </div>
+    </div>
+    <div class="floaters">
         <div class="clearfix">
             <figure class="fig-move">
                 <img src="<?php echo $imgpath ?>lacuevadelmar300x300.jpg"
@@ -52,4 +54,5 @@
                 </p>
             </div>
         </div><!-- textflex -->
+    </div>
         <?php include "../assets/inc/footer.html" ?>

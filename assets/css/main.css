@@ -384,6 +384,13 @@ footer a:hover{
         height:500px;
         margin-left: 0;
     }
+    .foodtextspacing{
+        margin-left: 0;
+    }
+    .cuevatextspacing{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
     #little{
         margin-bottom: 15px;
     }

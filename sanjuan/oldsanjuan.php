@@ -11,7 +11,7 @@
         <h1>Old San Juan!</h1>
 
         <?php include "../assets/inc/sanjuannav.php" ?>
-
+    <div class="floaters">
         <figure>
         <img src="<?php echo $imgpath ?>oldsjstreet300x169.jpg"
              alt="old san juan street"/>
@@ -28,6 +28,7 @@
                     and bars, nightclubs and tons of shopping.
                 </p>
             </div>
+    </div>
     </div>
         <h2>El Morro</h2>
         <div class="body-copy-flex">
