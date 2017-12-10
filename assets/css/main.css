@@ -70,6 +70,9 @@ nav ul li {
 .move-over{
     margin-left: 15px;
 }
+#daleandsam{
+    margin-left: 420px;
+}
 #tagline{
     font-family: "Lucida Handwriting", Arial, sans serif;
     font-size: .75em;
@@ -155,10 +158,10 @@ figure:hover figcaption {
     padding:25px 0;
     font-family:Georgia, sans serif;
 }
-#samanddale{
+/*#samanddale{
     float: left;
     padding: 0 15px 5px 0;
-}
+}*/
 #shifteverythingdown{
     margin-top: 280px;
 }
