@@ -380,6 +380,9 @@ footer a:hover{
     .body-copy-flex{
         flex-wrap: wrap;
     }
+    #little{
+        margin-bottom: 15px;
+    }
     figcaption{
         font-style: italic;
     }

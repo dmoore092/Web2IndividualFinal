@@ -49,7 +49,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 to the number of smaller roads needed to get there.
             </p>
         <figure class="clearfix">
-            <img class= "small" src="<?php echo $imgpath ?>PRMap400.png"
+            <img class= "small" id="little" src="<?php echo $imgpath ?>PRMap400.png"
                  alt="map of puerto rico" />
             <img class= "medium" src="assets/media/images/PRMap800.png"
                  alt="map of puerto rico" />
