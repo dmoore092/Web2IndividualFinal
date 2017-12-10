@@ -18,6 +18,7 @@
             party animals, but we like going out to interesting bars and having a few drinks and chatting with locals
             and bartenders.
         </p>
+    <div class="floaters">
         <figure>
             <img src="<?php echo $imgpath ?>rinconBeerCo300x200.jpg"
              alt="pic of Rincon Beer Company" />
@@ -35,20 +36,22 @@
                 </p>
             </div>
         </div>
-        <h2>La Estacion</h2>
+    </div>
         <div class="body-copy-flex">
+        <h2>La Estacion</h2>
             <div>
                 <p>While walking around downtown Rincon, we could hear the sound of heavy metal music, which is usual for the island. Following the sound, we found
                 a bar that you could easily mistake for a mechanic's garage if it weren't for the patrons moving in and out, and the tiny taco shop set up outside.</p><p> It turns out
                 we had found La Estación(The Station), which is run by mainlanders who moved to Puerto Rico generations
                 ago, and they did their own take on a biker bar. The taco stand out front was run by a woman who had Celiac as well, so she made Sam some very delicious gluten free tacos. We ended up going back here several times as well.</p>
             </div>
-            <figure class="fig-move">
+            <figure class="clearfix">
             <img src="<?php echo $imgpath ?>LaEstacion300x220.jpg"
                  alt="pic of Dale and Sam at La Estacion" />
                 <figcaption>Inside of La Estación</figcaption>
             </figure>
         </div>
+    <div class="floaters">
             <figure>
             <img src="<?php echo $imgpath ?>LaCambija300x225.jpg"
                 alt="pic of two drinks overlooking the ocean" />
@@ -66,5 +69,6 @@
                     </p>
                 </div>
             </div>
+    </div>
         <?php include "../assets/inc/footer.html" ?>
     

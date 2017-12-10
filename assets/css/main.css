@@ -301,24 +301,24 @@ footer a:hover{
 }   
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
-    body{
-        background-color: white;
+    figcaption, figure:before, #localnav, hr{
+        display: none;
     }
-    #shifteverythingdown{
-    margin-top: 0px;
+    main > ul > li{
+        display: none;
+    }
+    .small{
+        display: block;
     }
     #web-header, .big, .medium{
         display: none;
     }
     #click-here{
         display: block;
-        margin: 15px 0 15px 0;
+        margin: 15px 0;
     }
     #close-nav{
         display: inline;
-    }
-    .small{
-        display: block;
     }
     nav ul li{
         list-style: none;
@@ -364,14 +364,21 @@ footer a:hover{
         margin-left: 15px;
     }
     /*-------------MAIN SECTION -----------------------*/
-    hr{
-        display: none;
+    body{
+        background-color: white;
     }
-    main{
-        height: 100%;
+    #daleandsam{
+        display: inline;
     }
-    main > ul > li{
-        display: none;
+    #shifteverythingdown{
+        margin-top: 160px;
+    }
+    .floaters{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .body-copy-flex{
+        flex-wrap: wrap;
     }
     figcaption{
         font-style: italic;
@@ -381,9 +388,6 @@ footer a:hover{
         width: auto; 
         max-width: 400px; 
         object-fit: contain;
-    }
-    #fig-move{
-        margin-left:0;
     }
     #comments {
         resize: none;
