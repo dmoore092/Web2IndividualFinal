@@ -380,6 +380,10 @@ footer a:hover{
     .body-copy-flex{
         flex-wrap: wrap;
     }
+    .indextextspacing{
+        height:360px;
+        margin-left: 0;
+    }
     #little{
         margin-bottom: 15px;
     }
