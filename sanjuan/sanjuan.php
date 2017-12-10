@@ -19,7 +19,7 @@
                         alt="pano of el yunque"/>
                     <img class="medium" src="<?php echo $imgpath ?>elyunquepano800.jpg"
                         alt="pano of el yunque"/>
-                    <img class="big" src="<?php echo $imgpath ?>elyunquepano1300.jpg"
+                    <img class="big" id="large" src="<?php echo $imgpath ?>elyunquepano1300.jpg"
                         alt="pano of el yunque"/>
                     <figcaption>El Yunque National Park</figcaption>
                 </figure>
@@ -28,7 +28,7 @@
                         alt="pano of san juan"/>
                     <img class="medium" src="<?php echo $imgpath ?>sanjuanpano800.jpg"
                         alt="pano of san juan"/>
-                    <img class="big" src="<?php echo $imgpath ?>sanjuanpano1300.jpg"
+                    <img class="big" id="large" src="<?php echo $imgpath ?>sanjuanpano1300.jpg"
                         alt="pano of san juan"/>
                     <figcaption>View of the Bacardi factory from Old San Juan</figcaption>
                 </figure>
