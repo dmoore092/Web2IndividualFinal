@@ -226,6 +226,9 @@ footer a:hover{
     .small, .medium, #mobile-header{
         display: none;
     }
+    #shifteverythingdown{
+        margin-top: 280px;
+    }
     #large{
         width: 1269px;
     }
@@ -237,9 +240,6 @@ footer a:hover{
         margin: auto;
         background-color: white;
         padding: 15px;
-    }
-    #beachpic{
-        margin-left: 300px;
     }
     #footer-lists{
         display: flex;
