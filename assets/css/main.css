@@ -183,6 +183,7 @@ figure:hover figcaption {
     background-color: #0064AB;
     overflow: scroll;
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 #spacer-bar h3{
     color: white;
