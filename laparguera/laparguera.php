@@ -29,7 +29,7 @@
     </div>
         <h2>Things to do</h2>
         <div class="body-copy-flex">
-            <p class="indextextspacing">
+            <p class="indextext">
                 In the boating section I talk about this place a little more. It is an island that is off the coast, and
                 you can rent small boats for very cheap and head out to this place. There is a boat dock where you can tie off,
                 then on the other side of the dock is a fenced in pool area. The fence keeps critters out while letting
