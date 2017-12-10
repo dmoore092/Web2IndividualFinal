@@ -403,6 +403,7 @@ footer a:hover{
     }
     #spacer-bar{
         height: 150px;
+        width: 400px;
         background-color: #0064AB;
         /*background-color: #white;*/
         overflow: scroll;
