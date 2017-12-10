@@ -32,6 +32,7 @@
             </div>
         </div>
     </div>
+    <div class="floaters">
         <h2>The Green Thumb</h2>
         <div class="body-copy-flex">
             <div class="indextext">
@@ -48,4 +49,5 @@
                 <figcaption>Pad Thai</figcaption>
             </figure>
         </div>
+    </div>
         <?php include "../assets/inc/footer.html" ?>
