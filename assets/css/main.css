@@ -1,3 +1,168 @@
+/*APPLIES TO ALL PAGES */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0064AB;
+}
+/* -------- Navigation Stuff -------*/
+#web-header, #localnav{
+    background-color: #0064AB;
+}
+#web-header nav, #localnav nav{
+    display: flex;
+    justify-content: space-between;
+}
+#web-header a, #localnav nav a{
+    padding:  5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#navheader {
+    display: flex;
+    flex-direction: row;
+}
+nav ul{
+    display: flex;
+    flex-direction:column;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 15px 40px 15px 5px;
+}
+.active:before{
+    content: "\2192" ;
+}
+#web-header, #localnav{
+    margin-bottom: 15px;
+}
+#web-header nav a, #localnav nav a{
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* ----End of Navigation stuff ---*/
+/*#mainflex{
+    display: flex;
+    justify-content:space-around;
+}*/
+/*-----Main Body stuff ---*/
+.foodtextspacing{
+    margin-left: 565px;
+}
+.indextextspacing{
+    height:260px;
+    margin-left: 10px;
+}
+.indextext{
+    margin-right: 5px;
+}
+.cuevatextspacing{
+    margin-left: 320px;
+    margin-bottom: 150px;
+}
+.move-over{
+    margin-left: 15px;
+}
+#tagline{
+    font-family: "Lucida Handwriting", Arial, sans serif;
+    font-size: .75em;
+}
+main{
+    /*max-width:1000px;*/
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+main p{
+    padding:0 0 25px 0;
+}
+main img{
+    float: left;
+    /*padding:0 15px 15px 0;*/
+}
+main ul{
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+main ul li{
+    margin-bottom:25px;
+}
+main h4, main h3{
+    margin:15px;
+}
+.body-copy-flex{
+    display: flex;
+}
+.body-copy-flex img{
+    /* margin:0 0 0 25px;*/
+}
+#textflex{
+    display: flex;
+    flex-direction: column;
+}
+figure{
+    float: left;
+    position: relative;
+}
+#float-right{
+    float: right;
+}
+figcaption{
+    font-style: italic;
+    position: absolute; 
+    color: white;
+    padding-right: 5px;
+    width: 100%;
+    height: 50px;
+    opacity: 0;
+    padding: 0;
+    bottom: 0%;
+}
+figure:before{
+    content: "?";
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 24px;
+    height: 24px;
+    /*border-radius: 12px;*/
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    transition: all 0.6s ease;
+    opacity: 0.75;
+    bottom: 10px;
+    left: 10px;
+}
+figure:hover:before {
+    opacity: 0;
+}
+figure:hover figcaption {
+    background-color: black;
+    transition: all 0.6s ease;
+    opacity: .75;
+    bottom: 0;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+    /*opacity: 1;
+    /*left: 0;*/
+}
+
+ h1{
+    padding:25px 0;
+    font-family:Georgia, sans serif;
+}
+#samanddale{
+    float: left;
+    padding: 0 15px 5px 0;
+}
 #shifteverythingdown{
     margin-top: 280px;
 }
@@ -5,27 +170,63 @@
     height: 350px;
     overflow: scroll;
 }
+.clearfix{
+    clear: both;
+}
+#hidden{
+    visibility: hidden;
+}
 .g-recaptcha{
     margin-bottom: 25px;
 }
+#spacer-bar{
+    height: 350px;
+    background-color: #0064AB;
+    overflow: scroll;
+    margin-top: 15px;
+}
+#spacer-bar h3{
+    color: white;
+}
+#spacer-bar a:link{
+    color: white;
+}
+#spacer-bar a:visited{
+    color: wheat;
+}
+footer{
+    padding:20px;
+    height: 140px;
+    border:solid white 5px;
+    display: flex;
+    flex-direction: row;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 45px 25px;
+    height: 100px;
+}
+footer ul li:first-child{
+    font-weight:bold;
+    list-style-type: none;
+}
+footer a:link{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+#copyright{
+    float: right;
+}
+/* END OF GENERAL SECTION */
+
+
 /* Extra large screens*/
 @media screen and ( min-width: 1500px){
-    body{
-        background-color: #0064AB;
-    }
     .small, .medium, #mobile-header{
         display: none;
-    }
-    #web-header{
-        background-color: #0064AB;
-    }
-    #web-header nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    #web-header a{
-        padding:  5px 10px;
-        color: white;
     }
     main{
         width:1300px;
@@ -33,98 +234,20 @@
         background-color: white;
         padding: 15px;
     }
-    #samanddale{
-        float: left;
-        padding: 0 15px 5px 0;
-    }
-    /* Footer */
-    #spacer-bar{
-        height: 350px;
-        background-color: #0064AB;
-        overflow: scroll;
-        margin-top: 15px;
-    }
-    #spacer-bar h3{
-        color: white;
-    }
-    #spacer-bar a:link{
-        color: white;
-    }
-    #spacer-bar a:visited{
-        color: wheat;
-    }
-    footer{
-        padding:20px;
-        height: 140px;
-        border:solid white 5px;
-        display: flex;
-        flex-direction: row;
-    }
-    footer ul{
-        display: flex;
-        flex-direction: column;
-        margin: 25px 45px 25px;
-        height: 100px;
-    }
-    footer ul li:first-child{
-        font-weight:bold;
-        list-style-type: none;
-    }
-    footer a:link{
-        text-decoration: none;
-    }
-    footer a:hover{
-        text-decoration: underline;
-    }
-    #copyright{
-        float: right;
-    }
-
 }
+
+
 /* -- MEDIUM SECTION --*/
 @media screen and ( min-width: 451px) and (max-width: 1600px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    .clearfix{
-        clear: both;
-    }
-    #hidden{
-        visibility: hidden;
-    }
     #mobile-header, .small, .big{
         display: none;
     }
     .medium, #web-header{
         display: block;
     }
-    #web-header, #localnav{
-        background-color: #0064AB;
-    }
-    #web-header nav, #localnav nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    #web-header a{
-        margin: 0 10px;
-        
-    }
     .prpano{
         box-shadow: 8px 8px 20px;
         margin-bottom:10px;
-    }
-    body{
-        background-color: #0064AB;
-        /*width:80vw;*/
-    
-    }
-    
-    /* -------HEADER ---- */
-    #mainflex{
-        display: flex;
-        justify-content:space-around;
     }
     #title-bar{
         display: flex;
@@ -133,201 +256,16 @@
     }
     main{
         width:830px;
-        /*margin:0 120px;*/
-    }
-    
-    /*-- NAV SECTION --*/
-    #navheader {
-        display: flex;
-        flex-direction: row;
-    }
-    nav ul{
-        display: flex;
-        flex-direction:column;
-        list-style-type: none;
-    }
-    nav ul li {
-        margin: 15px 40px 15px 5px;
-    }
-    .active:before{
-        content: "\2192" ;
-    }
-    #web-header, #localnav{
-        margin-bottom: 15px;
-    }
-    #web-header nav a, #localnav nav a{
-        color: white;
-        border-radius: 5px;
-        padding: 5px;
-    }
-    /* ------MAIN CONTENT SECTION  ----*/
-    h1{
-        padding:25px 0;
-        font-family:Georgia, sans serif;
-    
-    }
-    #samanddale{
-        float: left;
-    }
-    .foodtextspacing{
-        margin-left: 565px;
-    }
-    .indextextspacing{
-        height:260px;
-        margin-left: 10px;
-    }
-    .indextext{
-        margin-right: 5px;
-    }
-    .cuevatextspacing{
-        margin-left: 320px;
-        margin-bottom: 150px;
-    }
-    .move-over{
-        margin-left: 15px;
-    }
-    #tagline{
-        font-family: "Lucida Handwriting", Arial, sans serif;
-        font-size: .75em;
-    }
-    main{
-        /*max-width:1000px;*/
-        margin: auto;
-        background-color: white;
-        padding: 15px;
-    }
-    main p{
-        padding:0 0 25px 0;
-    }
-    main img{
-        float: left;
-        /*padding:0 15px 15px 0;*/
-    }
-    main ul{
-        display: flex;
-        flex-direction:row;
-        list-style-type: none;
-        justify-content: space-around;
-    }
-    main ul li{
-        margin-bottom:25px;
-    }
-    main h4, main h3{
-        margin:15px;
-    }
-    .body-copy-flex{
-        display: flex;
-    }
-    .body-copy-flex img{
-        /* margin:0 0 0 25px;*/
-    }
-    
-    #textflex{
-        display: flex;
-        flex-direction: column;
-    }
-    figure{
-        float: left;
-        position: relative;
-    }
-    #float-right{
-        float: right;
-    }
-    figcaption{
-        font-style: italic;
-        position: absolute; 
-        color: white;
-        padding-right: 5px;
-        width: 100%;
-        height: 50px;
-        opacity: 0;
-        padding: 0;
-        bottom: 0%;
-    }
-    figure:before{
-        content: "?";
-        position: absolute;
-        background-color: white;
-        color: black;
-        width: 24px;
-        height: 24px;
-        /*border-radius: 12px;*/
-        text-align: center;
-        font-size: 14px;
-        line-height: 24px;
-        transition: all 0.6s ease;
-        opacity: 0.75;
-        bottom: 10px;
-        left: 10px;
-    }
-    figure:hover:before {
-        opacity: 0;
-    }
-    figure:hover figcaption {
-        background-color: black;
-        transition: all 0.6s ease;
-        opacity: .75;
-        bottom: 0;
-        text-align: center;
-        padding-top: 10px;
-        font-size: 1.5em;
-        /*opacity: 1;
-        /*left: 0;*/
-    }
-
-    /* ---- FOOTER -------*/
-    #spacer-bar{
-        height: 150px;
-        background-color: #0064AB;
-        /*background-color: #white;*/
-        overflow: scroll;
-        margin-top: 15px;
-    }
-    #spacer-bar h3{
-        color: white;
-    }
-    #spacer-bar a:link{
-        color: white;
-    }
-    #spacer-bar a:visited{
-        color: wheat;
-    }
-    footer{
-        padding:20px;
-        height: 240px;
-        border:solid white 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    footer ul{
-        display: flex;
-        flex-direction: column;
-        margin: 32px 15px 0;
-    }
-    footer ul li{
-        list-style-type: disc;
-        justify-content: space-between;
-        margin: 5px;
-    }
-    footer ul li:first-child{
-        font-weight:bold;
-    }
-    footer a:link{
-        text-decoration: none;
-    }
-    footer a:hover{
-        text-decoration: underline;
-    }
-    #copyright{
-        float: right;
     }
 }   
 /* -- Mobile(small) Section -- */
 @media screen and (max-width: 450px) {
+    body{
+        background-color: white;
+    }
     #shifteverythingdown{
     margin-top: 0px;
-}
+    }
     #web-header, .big, .medium{
         display: none;
     }
