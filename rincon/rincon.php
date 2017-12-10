@@ -19,6 +19,8 @@
              alt="rincon sunset"/>
         <img class="medium" src="<?php echo $imgpath ?>OurBeachSunset800.jpg"
              alt="rincon sunset"/>
+            <img class="big" src="<?php echo $imgpath ?>OurBeachSunset1000.jpg"
+             alt="rincon sunset"/>
             <figcaption>Sunset in Rincon</figcaption>
         </figure>
         <h2 class="clearfix">Sunset</h2>
