@@ -7,6 +7,9 @@
 body{
     background-color: #0064AB;
 }
+.big, .medium, .small, #web-header nav, #localnav, #spacer-bar, figure{
+        box-shadow: 5px 5px 8px #000;
+    }
 /* -------- Navigation Stuff -------*/
 #web-header, #localnav{
     background-color: #0064AB;
