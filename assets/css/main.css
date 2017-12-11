@@ -245,6 +245,9 @@ footer a:hover{
         background-color: white;
         padding: 15px;
     }
+    #daleandsambig{
+        margin-left: 420px;
+    }
     #footer-lists{
         display: flex;
         margin-left: 170px;

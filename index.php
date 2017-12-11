@@ -29,6 +29,8 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 and fell in love with the other areas that the island has to offer.
                 We've barely scratched the surface so we will continue to return.
             </p>
+            </div><!-- end daleandsam -->
+            <div id="daleandsambig">
             <h2>Hurricane Maria</h2>
             <p>
                 With the devastation that the island is experiencing,
@@ -38,7 +40,7 @@ $templinkpath = "http://localhost:8888/Web%20and%20Mobile%202/individualfinal/We
                 talk about where we went, and what we did. Along the way we'll talk about our experiences
                 in each of the areas.
             </p>
-            </div><!-- end body-text -->
+            </div>
             <h2>Where we went</h2>
             <p class="clearfix">Here is a map of the island with circles around the places you will
                 see in this website. La Parguera is a small town so it's not on the map, but it is
