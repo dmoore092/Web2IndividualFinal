@@ -18,13 +18,13 @@
         </div>
         <h4>3. Corrections from Project1</h4>
         <div class="fig-move">
-            <p>1. Typos fixed.</p>
-            <p>2. More paragraphs to break up large amounts of text.</p>
-            <p>3. Subheadings have been added to futher increase whitespace and break apart large blocks of text.</p>
-            <p>4. Font changed to Sans Serif.</p>
-            <p>5. Fixed alignment issues, particularly with the header. I moved the local nav down so that the main image displays across       the center. Footer is also now aligned with the rest of the site.</p>
-            <p>6. Added a background color to the local navigation in order to make it stand out more. This had the added benefit of using more blue throughout the site.</p>
-            <p>7. All repeated code has been moved to includes.</p>
+            <p>A. Typos fixed.</p>
+            <p>B. More paragraphs to break up large amounts of text.</p>
+            <p>C. Subheadings have been added to futher increase whitespace and break apart large blocks of text.</p>
+            <p>D. Font changed to Sans Serif.</p>
+            <p>E. Fixed alignment issues, particularly with the header. I moved the local nav down so that the main image displays across       the center. Footer is also now aligned with the rest of the site.</p>
+            <p>F. Added a background color to the local navigation in order to make it stand out more. This had the added benefit of using more blue throughout the site.</p>
+            <p>G. All repeated code has been moved to includes.</p>
         </div>
         <h4>Extras</h4>
         <div class="fig-move">

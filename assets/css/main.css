@@ -218,6 +218,9 @@ footer a:hover{
     float: right;
     margin-top: -20px;
 }
+.fig-move{
+    margin-left: 35px;
+}
 /* END OF GENERAL SECTION */
 
 
@@ -244,16 +247,11 @@ footer a:hover{
     #footer-lists{
         display: flex;
         margin-left: 170px;
-        /*flex-direction: column;*/
-        /*margin: 75px 40px 0px 0;*/
-        /*height: 100px;*/
     }
     footer{
         padding:20px;
         height: 300px;
         border:solid white 5px;
-        /* display: flex;
-        flex-direction: row;*/
     }
     footer ul{
         margin: 25px 180px 0px 0;
@@ -284,16 +282,11 @@ footer a:hover{
     #footer-lists{
         display: flex;
         margin-left: 110px;
-        /*flex-direction: column;*/
-        /*margin: 75px 40px 0px 0;*/
-        /*height: 100px;*/
     }
     footer{
         padding:20px;
         height: 300px;
         border:solid white 5px;
-        /* display: flex;
-        flex-direction: row;*/
     }
     footer ul{
         margin: 25px 50px 0px 0;
@@ -342,7 +335,6 @@ footer a:hover{
         text-decoration: none;
         font-size: 25px;
         color: #818181;
-        /*display: block;*/
         transition: 0.3s
     }
     
@@ -446,9 +438,6 @@ footer a:hover{
         margin-left: 0px;
         margin-top: 90px;
         flex-wrap: wrap;
-        /*flex-direction: column;*/
-        /*margin: 75px 40px 0px 0;*/
-        /*height: 100px;*/
     }
     footer ul{
         margin: 30px 50px 90px 0;
